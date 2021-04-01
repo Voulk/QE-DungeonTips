@@ -407,7 +407,7 @@ tipsMap = {
 	[167806] = {{"Important", ""}}, -- Animated Sin
 	[167615] = {{"Important", ""}}, -- Depraved Darkblade
 	[167898] = {{"Important", "Will fixate a random player. Kite and kill."}}, -- Manifestation of Envy
-	[175577] = {{"Important", ""}}, -- Sinfall Flyer 
+	[175577] = {{"Important", ""}}, -- Sinfall Flyer  
 	
 	----- Plaguefall -----
 	[164266] = {{"Important", "No mechanics happening: stay stacked."},

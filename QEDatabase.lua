@@ -45,6 +45,51 @@ tipsMap = {
 	[171422] = {{"Interrupts", "Interrupt: Soul Bolt (Big ST Nuke, boss will chain-cast but get as many as you can)"},
 				{"Dodge", "Dodge the swirls from Suppress."},
 				{"Important", "Deaden Magic will give him a small magic shield which can be purged, but is very small anyway."}}, -- Arch-Suppressor Laguas
+				
+	[151329] = {{"Dodge", "Dodge (!!!): Hulking Charge (Wait for start of cast then move)"}, 
+				{"Dodge", "Dodge: Rat Traps (Root + Damage)"}, 
+				{"HUNTER", "Enrage (!!): Use Tranquilizing Shot"}, 
+				{"DRUID", "Enrage (!!): Use Soothe"},
+				{"Defensives", "Kite during enrage if you can't remove it."},
+				{"Interrupts", "Interrupt: Rats! (Slows Player +Physical Damage)"}}, -- Warden Skoldus	
+				
+	[152995] = {{"Important", "Kite Boss out of Well of Souls (Void zone that buffs boss and Shade add damage)"}, 
+				{"Important", "Cleave Soul Fragment adds"},
+				{"Interrupts", "Interrupt or Outrange: Fearsome Howl (12 yard AoE Fear)"}}, -- Warden of Souls
+				
+	[153011] = {{"Important", "CC undead adds from Bind Souls to immediately kill"}, 
+				{"Dodge", "Dodge: Soul Echo (Deals Shadow Damage + Knockback)"},
+				{"Interrupts", "Interrupt: Shadow Bolt (ST nuke)"}}, -- Binder Baritas
+				
+	[153165] = {{"Important", "Use Blinding Smoke Capsules (from vendor) to mitigate severe melee dam"}, 
+				{"Important", "Do NOT attack while boss under effect of Thorned Shell (Deals 60yd AoE)"}, 
+				{"Dodge", "Dodge: Noxious Cloud"}, 
+				{"Interrupts", "Interrupt: Meat Hook (Pulls player to boss & Stuns)"}}, -- Custodian Thonar
+	[153174] = {{"Interrupts", "Interrupt or run away (!!): Fearsome Howl (12 yard AoE Fear)"}, 
+				{"Important", "Interrupt Steal Vitality if you have spare, but it is much lower priority."}
+				{"Dodge", "Dodge: Prophecy of Death (Swirls)"}}, -- Watchers of Death
+				
+	[153382] = {{"Important", "Stun or CC Devour. It'll eat a random Obleron power (the stat %s)"}, 
+				{"Interrupts", "Interrupt: Gunk (60yd ST nuke & big slow)"}}, -- Maw of the Maw
+				
+	[155250] = {{"Important", "During Hardened Shell: Use fast attacks to drop its buff, then pop DPS cooldowns when it's off"}, 
+				{"Dodge", "Dodge/Dispel Poison: Acid Bomb (use remove Poison if you have this ability)"}}, -- Decayspeaker
+				
+	[155251] = {{"Dodge", "Avoid Crush (Frontal-Cone Stun)"},
+				{"Important", "During Hardened Shell: Use fast attacks to drop its buff, then pop DPS cooldowns when it's off"}, 
+				{"Interrupts", "(!!) Interrupt/Dispel: Bounty of the Forest (Huge HoT)"}}, -- Elder Longbranch
+	[155945] = {{"Interrupts", "Interrupt: Deafening Howl (3s school lockout)"}, 
+				{"Important", "Incorporeal (-99% boss dmg taken). Good opportunity to heal."}}, -- Gherus the Chained
+				
+	[159755] = {{"Interrupts", "Interrupt (!): Withering Roar (-10% max HP)"},
+				{"Interrupts", "Dodge/Interrupt: Ground Crush (15 yard AoE stun)"}, 
+				{"Dodge", "Dodge: Inferno (Fire Swirls that throw you into the air)"},
+				{"Important", "Focus hard on dodging and this boss should cause few issues."}}, -- The Grand Malleare
+				
+	[169859] = {{"Important", "DODGE (!!!): Aerial Strikes (Swirl)"}, 
+				{"Important", "Stun/CC Ocular Beam (Nuke & Knockback). Don't get knocked off."}, 
+				{"Interrupts", "Interrupt: Focused Blast (ST nuke)"}}, -- Observer Zelgar
+			
 	[0] = {{"Important", ""}}, -- Default
 	
 	-- Regular Mobs --
@@ -104,6 +149,7 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Default
 	[0] = {{"Important", ""}}, -- Default
 	[0] = {{"Important", ""}}, -- Default
+	
 	-- Coldheart
 	[156157] = {{"Interrupts", "Interrupt: Shadow Rip (Nuke + DoT)."},
 				{"Important", "If you're in a group spread out since Falling Strike hits in a 5yd AoE."},

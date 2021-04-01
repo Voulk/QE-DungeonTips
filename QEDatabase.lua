@@ -66,7 +66,7 @@ tipsMap = {
 				{"Dodge", "Dodge: Noxious Cloud"}, 
 				{"Interrupts", "Interrupt: Meat Hook (Pulls player to boss & Stuns)"}}, -- Custodian Thonar
 	[153174] = {{"Interrupts", "Interrupt or run away (!!): Fearsome Howl (12 yard AoE Fear)"}, 
-				{"Important", "Interrupt Steal Vitality if you have spare, but it is much lower priority."}
+				{"Important", "Interrupt Steal Vitality if you have spare, but it is much lower priority."},
 				{"Dodge", "Dodge: Prophecy of Death (Swirls)"}}, -- Watchers of Death
 				
 	[153382] = {{"Important", "Stun or CC Devour. It'll eat a random Obleron power (the stat %s)"}, 

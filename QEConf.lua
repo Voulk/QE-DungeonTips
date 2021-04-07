@@ -15,6 +15,12 @@ local _, addon = ...;
 QEConf = {}
 --local ACD = LibStub("MSA-AceConfigDialog-3.0")
 
+local function RGBToHex(r, g, b)
+	r = r <= 1 and r >= 0 and r or 0
+	g = g <= 1 and g >= 0 and g or 0
+	b = b <= 1 and b >= 0 and b or 0
+	return string.format("%02x%02x%02x", r*255, g*255, b*255)
+end
 
 -- Saved Variables
 QEConfig = {	
@@ -37,6 +43,30 @@ QEConfig = {
 	["FontSize"] = 12,
 	["FrameOpacity"] = 0.55
 }
+
+QEHallOfFameRR = {"Voulk - Stonemaul", "Surge - Stonemaul", "Broccoliz - Stonemaul"}
+QEHallOfFameDiamond = {"Voulk - Stonemaul", "Surge - Stonemaul"}
+QEHallOfFameGold = {"Voulk - Stonemaul", "Surge - Stonemaul"}
+
+local function addPatronSet(array, color, frame)
+	local arraySize = 0
+	for i, patron in ipairs(array) do
+		local lineHex = color
+		local tipBase = frame:GetText()
+		local endOfLine = "        "
+		if i % 3 == 0 then
+			endOfLine = "\n"
+		end
+		frame:SetText(tipBase .. "|cff" .. lineHex .. " " .. patron .. "|r" .. endOfLine)
+		arraySize = arraySize + 1
+		
+	end
+	if arraySize % 3 ~= 0 then
+		frame:SetText(frame:GetText() .. "\n")
+	end
+		
+end
+	
 
 -- Create Checkboxes
 local function createCheck(label, description, frame, onClick)
@@ -281,7 +311,79 @@ local function createConfigMenu()
 		self.text:SetText(QEConfig.FontSize)
 			end)
 	
+
+	-- Hall of Fame --
+	local hofFrame = CreateFrame("Frame", "HoFFrame", UIParent)
+	hofFrame:SetHeight(580)
+	hofFrame:SetWidth(580)
+	hofFrame:SetPoint("CENTER")
+	
+	hofFrame.tex = hofFrame:CreateTexture()
+	hofFrame.tex:SetAllPoints(hofFrame)
+	hofFrame.tex:SetColorTexture(62/255, 59/255, 55/255, 0.75)
+	hofFrame:SetFrameLevel(8)
+	hofFrame:Hide()
+	
+	local hofClose = CreateFrame("Button", "HoFClose", hofFrame, "UIPanelButtonTemplate")
+	hofClose:SetSize(25, 25)
+	hofClose:SetFrameLevel(9)
+	hofClose:ClearAllPoints()
+	hofClose:SetNormalTexture("Interface\\Buttons\\CancelButton-Up")
+	hofClose:SetHighlightTexture("Interface\\Buttons\\CancelButton-Up", 1.0)
+	hofClose:SetAlpha(0.85)
+	hofClose:SetPoint("TOPRIGHT", hofFrame, "TOPRIGHT", 0, 0)
+	hofClose:SetScript("OnClick", function()
+		hofFrame:Hide()
+		
+	end)
+	
+	-- Config Header Text
+	headerHof = hofFrame:CreateFontString("QE_HeaderText", nil, nil)
+	headerHof:SetPoint("TOPLEFT", 5, -4)
+	headerHof:SetPoint("TOPRIGHT", 5, -4)
+	headerHof:SetFont("Fonts\\SKURRI.TTF", 16, "OUTLINE")
+	headerHof:SetTextColor(239/255, 191/255, 90/255)
+	headerHof:SetJustifyH("CENTER")
+	headerHof:SetJustifyV("CENTER")
+	headerHof:SetText("Questionably Epic Hall of Fame")
+	headerHof:SetWordWrap(true)
+	
+
+	local hofButton = CreateFrame("Button", "HoFBtn", addon.configPanel, "UIPanelButtonTemplate")
+	hofButton:SetSize(140, 27)
+	hofButton:SetText("QE Hall of Fame")
+	hofButton:SetPoint("TopLeft", chkRaid, "BOTTOMLEFT", 2, -22)
+	hofButton:SetScript("OnClick", function() 
+		hofFrame:Show()
+		InterfaceOptionsFrame:Hide()
+	end)
+	
+	local RRText = hofFrame:CreateFontString("RRText", nil, nil)
+	RRText:SetPoint("TOPLEFT", 5, -55)
+	RRText:SetPoint("TOPRIGHT", 5, -55)
+	RRText:SetWordWrap(true)
+	RRText:SetFont("Fonts\\SKURRI.TTF", 18, "OUTLINE")
+	RRText:SetJustifyH("CENTER")
+	RRText:SetJustifyV("TOP")
+	RRText:SetText("QE Patrons")
+	
+	local QE_hofText = hofFrame:CreateFontString("RRPatrons", nil, nil)
+	QE_hofText:SetPoint("TOPLEFT", "RRText", "BOTTOMLEFT", 5, -10)
+	QE_hofText:SetPoint("TOPRIGHT", "RRText", "BOTTOMRIGHT", 5, -10)
+	QE_hofText:SetWordWrap(true)
+	QE_hofText:SetFont("Fonts\\ARIALN.ttf", 16, "OUTLINE")
+	QE_hofText:SetTextColor(255, 0, 0, 255)
+	QE_hofText:SetJustifyH("CENTER")
+	QE_hofText:SetJustifyV("TOP")
+	QE_hofText:SetText(" ")
+	
+	addPatronSet(QEHallOfFameRR, RGBToHex(0, 1, 150/255), QE_hofText)
+	addPatronSet(QEHallOfFameDiamond, RGBToHex(228/255, 35/255, 157/255), QE_hofText)
+	addPatronSet(QEHallOfFameGold, RGBToHex(207/255, 181/255, 59/255), QE_hofText)
+	
 	--[[
+	
+	
 	
 	
 	

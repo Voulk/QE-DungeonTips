@@ -67,10 +67,6 @@ end)
 end)
 	--
 	
-	
-	
-
-
 
 	-- Header Panel
 	QE_HeaderPanel = CreateFrame("Frame", "QE_HeaderFrame", QE_ParentFrame)	

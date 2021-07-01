@@ -313,6 +313,7 @@ local function createConfigMenu()
 	
 
 	-- Hall of Fame --
+	--[[
 	local hofFrame = CreateFrame("Frame", "HoFFrame", UIParent)
 	hofFrame:SetHeight(580)
 	hofFrame:SetWidth(580)
@@ -348,7 +349,7 @@ local function createConfigMenu()
 	headerHof:SetText("Questionably Epic Hall of Fame")
 	headerHof:SetWordWrap(true)
 	
-
+	
 	local hofButton = CreateFrame("Button", "HoFBtn", addon.configPanel, "UIPanelButtonTemplate")
 	hofButton:SetSize(140, 27)
 	hofButton:SetText("QE Hall of Fame")
@@ -380,7 +381,7 @@ local function createConfigMenu()
 	addPatronSet(QEHallOfFameRR, RGBToHex(0, 1, 150/255), QE_hofText)
 	addPatronSet(QEHallOfFameDiamond, RGBToHex(228/255, 35/255, 157/255), QE_hofText)
 	addPatronSet(QEHallOfFameGold, RGBToHex(207/255, 181/255, 59/255), QE_hofText)
-	
+	--]]
 	--[[
 	
 	

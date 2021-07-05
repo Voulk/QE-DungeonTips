@@ -19,6 +19,127 @@ tipsMap = {
 	-------------------Shadowlands---------------------
 	---------------------------------------------------
 	
+	--------------
+	-- Tazevesh --
+	--------------
+	[175616] = {{"Important", "Interrogation: When targeted, run far from the boss. You'll be imprisoned and the group will have to DPS you out before boss reaches you."},
+				{"Important", "Do not walk in front of the boss when he is moving toward Imprisoned target."},
+				{"Important", "When pacified: walk over your weapon on the ground to pick it back up."},
+				{"Important", "HardMode: You must fight boss with Portalmancer up. Pop Lust and burn Portalmancer quickly."},
+				{"Important", "HardMode: You also can't clear trash on Hard. Instead you have to fight the boss in the sliver of space where they start."}}, -- Zo'phex the Sentinel (Boss)
+	[175646] = {{"Important", "Stand in: big purple swirls. If you don't soak they will splash on the ground, and space here is crucial."},
+				{"Important", "Stack for: Money Order (Big golden swirl on one player). This damage is split."},
+				{"Important", "Use defensives during Fan Mail. This is big unavoidable AoE damage."},
+				{"Important", "Unstable Goods (red suitcases): Pick them up and then throw them into the vent with wind in it."},
+				{"Important", "You can throw goods from person to person to take care of them more quickly (and this is mandatory in Hard Mode."},
+				{"Important", "HardMode: Unstable Goods now roots. Have one person act as the middleman, and pass them around the room. You must be VERY fast."}}, -- Mailroom Mayhem
+	[176564] = {{"Important", "Before the fight: Pick up instruments. During the fight, use your extra action button to pick up notes on the floor for a stacking buff."},
+				{"Important", "During Crowd Control (puts his shield up): Move behind him to avoid the deflect, and the forthcoming huge frontal."},
+				{"Dodge", "Dodge: Suppression Spark. The boss will pull you toward him. Run. Don't finish cast. RUN!"},
+				{"Dodge", "Dodge: Green rotten food swirls."},
+				{"Important", "HardMode: The band you replaced are angry. They will fixate the person playing their instrument. Kite them, and burn Hips first."}}, -- Zo'Gron
+	-- The Grand Menagerie  176705
+	[176556] = {{"Important", "Three bosses that spawn on a fixed timer so DPS is worth a premium."},
+				{"Important", "Gluttony (DoT that jumps between players). Whoever has Gluttony needs to soak the balls for a dps increase."},
+				{"Dodge", "Alcruux: Run out when gripped in."},
+				{"Important", "Two sets of circles will spawn on different timers. Stand in the second to spawn until the first explode, then move to the safe zone."},
+				{"Important", "Achillite: When targeted by Purification Protocol: Move away from players then get dispelled."},
+				{"Important", "Dodge the balls UNLESS you have Gluttony, then soak them."},
+				{"Important", "Venza Goldfuse: When dragged toward boss: Run as hard as you can, and use mobility CDs."},
+				{"Important", "When player is chained: DPS the chains to break them out. Quickly now."}}, -- Alcruux
+	[176555] = {{"Important", "Three bosses that spawn on a fixed timer so DPS is worth a premium."},
+				{"Important", "Gluttony (DoT that jumps between players). Whoever has Gluttony needs to soak the balls for a dps increase."},
+				{"Important", "Achillite: When targeted by Purification Protocol: Move away from players then get dispelled."},
+				{"Important", "Dodge the balls UNLESS you have Gluttony, then soak them."},
+				{"Important", "Venza Goldfuse: When dragged toward boss: Run as hard as you can, and use mobility CDs."},
+				{"Important", "When player is chained: DPS the chains to break them out. Quickly now."}}, -- Achillite
+	[176705] = {{"Important", "Three bosses that spawn on a fixed timer so DPS is worth a premium."},
+				{"Important", "Gluttony (DoT that jumps between players). Whoever has Gluttony needs to soak the balls for a dps increase."},
+				{"Important", "Venza Goldfuse: When dragged toward boss: Run as hard as you can, and use mobility CDs."},
+				{"Important", "When player is chained: DPS the chains to break them out. Quickly now."}}, -- Venza Darkfuse
+	
+	-- Part Two --
+	[175806] = {{"Important", "Triangle, Square and Circle teleporters will spawn through the fight in pairs. Stepping into one will teleport you to the other of the same shape."},
+				{"Important", "You will use these to follow the boss around the room, since the boss will put walls up and teleport."},
+				{"Interrupts", "Interrupt (!!!): Double Technique. You need to interrupt this twice. "},
+				{"Important", "There is also a large wave-like AoE ability and you can use the teleporters to avoid it."},
+				{"Important", "You CAN also blink through the walls and over the wave, and this can be very helpful."}}, -- So'azmi
+	[175663] = {{"Dodge", "Dodge: Purged by Fire (yellow line that follows one player)."},
+				{"Dodge", "Dodge: Titanic Crash (Frontal that will stun you)."},
+				{"Important", "During intermission: One player clicks the console at the back of the room, it will show which console each rune needs to be put in."},
+				{"Important", "The other four players will need to pick up one rune each, and take it to the correct console."},
+				{"Important", "This is all about communication and is much easier in voice, if available."},
+				{"Important", "Kill the Purifier adds as you do the runes, as they will lock random consoles while alive."}}, -- Hylbrande
+	[175546] = {{"Important", "During Infinite Breath: have tank line it up with adds, then run out when it stops following you. INSTAKILLS enemies."},
+				{"Dodge", "Dodge: Avoid the tail. It has a tail swipe."},
+				{"Important", "When chained: Run against it to stop yourself bring dragged into water."},
+				{"Important", "HardMode: During Hard Mode slowing bubbles will spawn, and you just have to avoid them."}}, -- Timecap'n Hooktail
+	[180863] = {{"Important", "Walk into the orbs to soak a stack. Each orb has 4 stacks and should be fully soaked."},
+				{"Important", "HOWEVER, each time you soak a stack the raid takes an AoE 3s DoT. Stagger your soaks to not overwhelm your healer."},
+				{"Important", "After Power Overwheling: Have one player stand behind each relic, and the hyperlight jolt should destroy them. Boss is immune to dmg."},
+				{"Interrupts", "During the add phase, interrupt them and kill as quickly as possible."},
+				{"Dodge", "Dodge: Relics will explode in a large AoE circle. Walk out."}}, -- So'leah
+	
+	[177807] = {{"Dodge", "Dodge: Throws an AoE swirl at random players."}}, -- Customs Security
+	[178392] = {{"Important", "Does a large AoE pulse ability. Not that dangerous."}}, -- Gatewarden Zo'mazz
+	[177817] = {{"Important", "Interrupt (!!): Hard Light Barrier (Big absorb on one enemy)"}}, -- Support Officer
+	[177816] = {{"Interrupt", "Interrupt / Dispel (!!!) Statis Beam (Stun / Heavy damage)"},
+				{"HEALER", "Dispel (!): Glyph of Restraint (DoT)"},
+				{"Important", "You'll usually want to interrupt Beam, and then save dispel for Glyph of Restraint."}}, -- Interrogation Specialist
+	[177808] = {{"Dodge", "Throws out a long beam that rotates. Stacks a big DoT if you get hit."}}, -- Armored Overseer
+	[179334] = {{"Important", "Killing Portalmancer will summon the first boss!"},
+				{"Important", "Dodge: Portals will spawn big lines to dodge, multiple at once."},
+				{"Important", "Dispel and heal: Glyph of Restraint. This time it's party-wide."}}, -- Portalmancer Zo'honn
+	
+	
+	[179893] = {{"Important", "Nothing dangerous or notable."}}, -- Cartel Skulker
+	[180335] = {{"Important", "If targeted by circle: run away from allies. It can also be dispelled."}}, -- Cartel Smuggler
+	[180336] = {{"Dodge", "Dodge: Run out of the large circle on the ground. "}}, -- Cartel Wiseguy
+	[180348] = {{"Important", "During his Chronolight Enhancer buff: kite. He does huge damage, but is also very slowed."}}, -- Cartel Muscle
+	[176396] = {{"Important", "Will try and open the creature cages. You can CC them to interrupt the cast."}}, -- Defective Sorter
+	[176394] = {{"Important", "Nothing notable or dangerous."}}, -- POST Worker
+	[176395] = {{"Important", "Interrupt / Purge (!): Spam Filter (50% DR on enemy)"},
+				{"Important", "Throws Junk Mail at random players. Not that dangerous but healer will need to press buttons."},
+				{"Important", "On death: creates large purple bubble that gives +50% haste to players / enemies."}}, -- Overloaded Mailemental
+	[175677] = {{"Important", "Soothe: Feral (Damage increase)."}}, -- Smuggled Creature
+	[178388] = {{"Important", "Will fixate whoever is carrying the event item. Hits VERY hard so you will want to kite and kill."}}, -- Bazaar Strongarm
+	
+	[179840] = {{"Important", "Have everyone stack in melee, or it'll charge a random player 10 yards away."},
+				{"Interrupts", "Stun Interrupt: Phalanx Field (75% magic DR)"}}, -- Market Peacekeeper
+	[179841] = {{"Interrupts", "Interrupt (!!): Hyperlight Salvo (Big ST damage on random player). You can also have the tank stand in the way of the projectile."}}, -- Sparkcaster
+	[179842] = {{"Important", "Does a big tank knockback. Don't stand with your back to unpulled mobs."},
+				{"Important", "Soothe: Force Multiplier (AoE dmg inc). Also increases damage taken, but for now you should just soothe."}}, -- Commerce Enforcer
+	[179821] = {{"Dodge", "Dodge: Don't walk into the orbs."},
+				{"Important", "Will link players together. Run away to stay apart until the debuff ends."},
+				{"Important", "Does a big tank knockback. Don't stand with your back to unpulled mobs."}}, -- Commander Zo'far (Miniboss)
+	
+	[178165] = {{"Important", "Tidal Stomp: huge stacking AoE damage. 50 yard range."},
+				{"Important", "While technically outrangeable, you will fare better if you just hard burn the mob."},
+				{"Dodge", "Dodge: Boulder Throw (brown swirl)"}}, -- Coastwalker Goliath
+	[178163] = {{"Important", "Not individually dangerous, but travel in big packs."}}, -- Murkbrine Shorerunner
+	[178139] = {{"Interrupts", "Stun Interrupt (!): Cry of Mrrggllrrgg (AoE Enrage, +50% dmg)"}}, -- Murkbrine Shellcrusher
+	[178141] = {{"Important", "Stun Interrupt (!!): Invig Fish Stick (AoE healing totem, DPS down if not interrupted)."}}, -- Murkbrine Scalebinder
+	[178142] = {{"Interrupts", "Dodge / Interrupt: Volatile Pufferfish (blue AoE swirl on the ground)"},
+				{"Interrupts", "Interrupt: Waterbolt (Medium dmg ST nuke)"}}, -- Murkbrine Fishmancer
+	[178133] = {{"Important", "Jumps around on random players, but this does not seem to be at all dangerous."}}, -- Murkbrine Wavejumper
+	[178171] = {{"Dodge", "Dodge: Charged Pulse (3s cast - blue AoE circle)"},
+				{"Dodge", "Dodge: The Blue lines. They stick around for a while so watch your positioning."}}, -- Stormforged Guardian
+				
+	[180015] = {{"Interrupts", "Stun Interrupt: Disruptive Shout (AoE damage)."},
+				{"Important", "Soothe: Super Saison (+100% dmg buff)"}}, -- Burly Deckhand
+	[179388] = {{"Dodge", "Dodge: Tidal Burst (blue AoE swirl)"}}, -- Hourglass Tidesage
+	[179386] = {{"Dodge", "Dodge: Sword Toss. HEAVY, channeled AoE damage in a random direction."}}, -- Corsair Officer
+	
+	[180429] = {{"Important", "Will summon a little star that will blow up your group. Kill it quickly."},
+				{"Important", "During Drifting Star cast: circle behind mob. Big projectile that fires across the room."}}, -- Adorned Starseer
+	[180432] = {{"PriorityTargets", "Priority Target."},
+				{"Important", "Stacks dmg taken increase on the tank. Kill quickly or start kiting."},
+				{"Interrupts", "Interrupt (!!): Reinvigorate (Heal + haste buff)"}}, -- Devoted Accomplice
+	[180431] = {{"Interrupts", "Interrupt (!!): Unstable Rift (big AoE damage)"}}, -- Focused Ritualist
+	
+	
+	
+	
 	-- Torghast --
 	[152594] = {{"Important", ""}}, -- Broker Ve'ken
 	

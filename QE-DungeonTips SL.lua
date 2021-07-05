@@ -190,6 +190,16 @@ addon.acceptedDungeons = {
 	[1913] = true, -- Torghast
 	[1914] = true, -- Torghast
 	
+	[1989] = true, -- Tazavesh
+	[1990] = true, -- Tazavesh
+	[1991] = true, -- Tazavesh
+	[1992] = true, -- Tazavesh
+	[1993] = true, -- Tazavesh
+	[1994] = true, -- Tazavesh
+	[1995] = true, -- Tazavesh
+	[1996] = true, -- Tazavesh
+	[1997] = true, -- Tazavesh
+	
 
 	-- BFA
 	[1038] = true, -- Temple of Sethraliss

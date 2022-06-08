@@ -38,6 +38,11 @@ tipsMap = {
 				{"Dodge", "Dodge: Suppression Spark. The boss will pull you toward him. Run. Don't finish cast. RUN!"},
 				{"Dodge", "Dodge: Green rotten food swirls."},
 				{"Important", "HardMode: The band you replaced are angry. They will fixate the person playing their instrument. Kite them, and burn Hips first."}}, -- Zo'Gron
+	[176563] = {{"Important", "Before the fight: Pick up instruments. During the fight, use your extra action button to pick up notes on the floor for a stacking buff."},
+				{"Important", "During Crowd Control (puts his shield up): Move behind him to avoid the deflect, and the forthcoming huge frontal."},
+				{"Dodge", "Dodge: Suppression Spark. The boss will pull you toward him. Run. Don't finish cast. RUN!"},
+				{"Dodge", "Dodge: Green rotten food swirls."},
+				{"Important", "HardMode: The band you replaced are angry. They will fixate the person playing their instrument. Kite them, and burn Hips first. Use defensives here."}}, -- Zo'Gron
 	-- The Grand Menagerie  176705
 	[176556] = {{"Important", "Three bosses that spawn on a fixed timer so DPS is worth a premium."},
 				{"Important", "Gluttony (DoT that jumps between players). Whoever has Gluttony needs to soak the balls for a dps increase."},
@@ -61,7 +66,7 @@ tipsMap = {
 	-- Part Two --
 	[175806] = {{"Important", "Triangle, Square and Circle teleporters will spawn through the fight in pairs. Stepping into one will teleport you to the other of the same shape."},
 				{"Important", "You will use these to follow the boss around the room, since the boss will put walls up and teleport."},
-				{"Interrupts", "Interrupt (!!!): Double Technique. You need to interrupt this twice. "},
+				{"Interrupts", "Interrupt (!!!): Double Technique. You need to interrupt this twice (3x on hard mode). "},
 				{"Important", "There is also a large wave-like AoE ability and you can use the teleporters to avoid it."},
 				{"Important", "You CAN also blink through the walls and over the wave, and this can be very helpful."}}, -- So'azmi
 	[175663] = {{"Dodge", "Dodge: Purged by Fire (yellow line that follows one player)."},
@@ -74,9 +79,9 @@ tipsMap = {
 				{"Dodge", "Dodge: Avoid the tail. It has a tail swipe."},
 				{"Important", "When chained: Run against it to stop yourself bring dragged into water."},
 				{"Important", "HardMode: During Hard Mode slowing bubbles will spawn, and you just have to avoid them."}}, -- Timecap'n Hooktail
-	[180863] = {{"Important", "Walk into the orbs to soak a stack. Each orb has 4 stacks and should be fully soaked."},
+	[177269] = {{"Important", "IMPORTANT: Walk into the orbs to soak a stack. Each orb has 4 stacks and should be fully soaked."},
 				{"Important", "HOWEVER, each time you soak a stack the raid takes an AoE 3s DoT. Stagger your soaks to not overwhelm your healer."},
-				{"Important", "After Power Overwheling: Have one player stand behind each relic, and the hyperlight jolt should destroy them. Boss is immune to dmg."},
+				{"Important", "After Power Overwhelming: Have one player stand behind each relic such that the line from the boss cuts through them. Boss is immune to dmg."},
 				{"Interrupts", "During the add phase, interrupt them and kill as quickly as possible."},
 				{"Dodge", "Dodge: Relics will explode in a large AoE circle. Walk out."}}, -- So'leah
 	

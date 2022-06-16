@@ -44,9 +44,54 @@ QEConfig = {
 	["FrameOpacity"] = 0.55
 }
 
-QEHallOfFameRR = {"Voulk - Stonemaul", "Surge - Stonemaul", "Broccoliz - Stonemaul"}
-QEHallOfFameDiamond = {"Voulk - Stonemaul", "Surge - Stonemaul"}
-QEHallOfFameGold = {"Voulk - Stonemaul", "Surge - Stonemaul"}
+QEHallOfFameRR = {"== Rolls Royce ==", "Jaycob-Saurfang",
+"Lightwrath-Whisperwind",
+"Zikihra-Blackmoore",
+"Splenduus",
+"Meddah-Proudmoore",
+"Csinál-Dragonmaw",
+"Hastefreak-TwistingNether",
+"Vicnoia-Icewind Point",
+"Tízoc EU-Mal´Ganis",
+"Cuddlybruce Argent Dawn",
+"Katurn - Frostmourne",
+"chewbaccas-Drakkari",
+"Ðumplings Norgannon"}
+QEHallOfFameDiamond = {"== Diamond ==", 
+"Eluminati-Hyjal",
+"Zaalía-Area52",
+"Arkadas-Proudmoore",
+"Nollysham-Stormrage",
+"Knowledge-Sargeras",
+"Alloxa-Kazzak",
+"Surrge-Stonemaul",
+"Squishses-Proudmoore",
+"Alfyhar-Zuljin",
+"Nesuni",
+"Amnyth",
+"Prucewayne-Illidan",
+"Zenashi",
+"Aristeia-Eredar",
+"Jinzhra-Draenor",
+"Herbalsjr-stormrage",
+"Bejeweled",
+"Manatide-TheMaelstrom",
+"Janae-Stormrage",
+"Ådelyn-TwistingNether",
+"Tizianah",
+"Seedmoon-Silvermoon",
+"Gingersnapmd Area52",
+"Affrodite-Argent Dawn",
+"Baradeth-Stormreaver",
+"Moonrabbit-Sargeras",
+"Squidkid",
+"Nyrde-Draenor"}
+
+QEHallOfFameGold = {"== Gold ==", 
+"Treeahje-Stormrage",
+"Divinitee-Argent Dawn",
+"Оссуми-Гордунни"
+}
 
 local function addPatronSet(array, color, frame)
 	local arraySize = 0
@@ -55,9 +100,9 @@ local function addPatronSet(array, color, frame)
 		local tipBase = frame:GetText()
 		local endOfLine = "        "
 		if i % 3 == 0 then
-			endOfLine = "\n"
+			--endOfLine = "\n"
 		end
-		frame:SetText(tipBase .. "|cff" .. lineHex .. " " .. patron .. "|r" .. endOfLine)
+		frame:SetText(tipBase .. "|cff" .. lineHex .. " " .. patron .. "|r" .. endOfLine .. "\n")
 		arraySize = arraySize + 1
 		
 	end
@@ -313,7 +358,6 @@ local function createConfigMenu()
 	
 
 	-- Hall of Fame --
-	--[[
 	local hofFrame = CreateFrame("Frame", "HoFFrame", UIParent)
 	hofFrame:SetHeight(580)
 	hofFrame:SetWidth(580)
@@ -357,37 +401,63 @@ local function createConfigMenu()
 	hofButton:SetScript("OnClick", function() 
 		hofFrame:Show()
 		InterfaceOptionsFrame:Hide()
+		HideUIPanel(GameMenuFrame)
 	end)
 	
 	local RRText = hofFrame:CreateFontString("RRText", nil, nil)
-	RRText:SetPoint("TOPLEFT", 5, -55)
-	RRText:SetPoint("TOPRIGHT", 5, -55)
+	RRText:SetPoint("TOPLEFT", 5, -44)
+	RRText:SetPoint("TOPRIGHT", 5, -44)
 	RRText:SetWordWrap(true)
 	RRText:SetFont("Fonts\\SKURRI.TTF", 18, "OUTLINE")
 	RRText:SetJustifyH("CENTER")
 	RRText:SetJustifyV("TOP")
 	RRText:SetText("QE Patrons")
 	
+	local thankyou = hofFrame:CreateFontString("RRThanks", nil, nil)
+	thankyou:SetPoint("TOPLEFT", 5, -65)
+	thankyou:SetPoint("TOPRIGHT", 5, -65)
+	thankyou:SetWordWrap(true)
+	thankyou:SetFont("Fonts\\SKURRI.TTF", 18, "OUTLINE")
+	thankyou:SetJustifyH("CENTER")
+	thankyou:SetJustifyV("TOP")
+	thankyou:SetText("Thank you so much for your support!")
+	
 	local QE_hofText = hofFrame:CreateFontString("RRPatrons", nil, nil)
-	QE_hofText:SetPoint("TOPLEFT", "RRText", "BOTTOMLEFT", 5, -10)
-	QE_hofText:SetPoint("TOPRIGHT", "RRText", "BOTTOMRIGHT", 5, -10)
+	QE_hofText:SetPoint("TOPLEFT", "RRText", "BOTTOMLEFT", 5, -25)
+	QE_hofText:SetPoint("TOPRIGHT", "RRText", "BOTTOMRIGHT", 5, -25)
 	QE_hofText:SetWordWrap(true)
 	QE_hofText:SetFont("Fonts\\ARIALN.ttf", 16, "OUTLINE")
 	QE_hofText:SetTextColor(255, 0, 0, 255)
-	QE_hofText:SetJustifyH("CENTER")
+	QE_hofText:SetJustifyH("LEFT")
 	QE_hofText:SetJustifyV("TOP")
 	QE_hofText:SetText(" ")
 	
+	local QE_hofText2 = hofFrame:CreateFontString("RRPatrons", nil, nil)
+	QE_hofText2:SetPoint("TOPLEFT", "RRText", "BOTTOMLEFT", 5, -25)
+	QE_hofText2:SetPoint("TOPRIGHT", "RRText", "BOTTOMRIGHT", 5, -25)
+	QE_hofText2:SetWordWrap(true)
+	QE_hofText2:SetFont("Fonts\\ARIALN.ttf", 16, "OUTLINE")
+	QE_hofText2:SetTextColor(255, 0, 0, 255)
+	QE_hofText2:SetJustifyH("CENTER")
+	QE_hofText2:SetJustifyV("TOP")
+	QE_hofText2:SetText(" ")
+	
+	local QE_hofText3 = hofFrame:CreateFontString("RRPatrons", nil, nil)
+	QE_hofText3:SetPoint("TOPLEFT", "RRText", "BOTTOMLEFT", 5, -25)
+	QE_hofText3:SetPoint("TOPRIGHT", "RRText", "BOTTOMRIGHT", 5, -25)
+	QE_hofText3:SetWordWrap(true)
+	QE_hofText3:SetFont("Fonts\\ARIALN.ttf", 16, "OUTLINE")
+	QE_hofText3:SetTextColor(255, 0, 0, 255)
+	QE_hofText3:SetJustifyH("RIGHT")
+	QE_hofText3:SetJustifyV("TOP")
+	QE_hofText3:SetText(" ")
+	
 	addPatronSet(QEHallOfFameRR, RGBToHex(0, 1, 150/255), QE_hofText)
-	addPatronSet(QEHallOfFameDiamond, RGBToHex(228/255, 35/255, 157/255), QE_hofText)
-	addPatronSet(QEHallOfFameGold, RGBToHex(207/255, 181/255, 59/255), QE_hofText)
-	--]]
+	addPatronSet(QEHallOfFameDiamond, RGBToHex(228/255, 35/255, 157/255), QE_hofText2)
+	addPatronSet(QEHallOfFameGold, RGBToHex(207/255, 181/255, 59/255), QE_hofText3)
+
+	
 	--[[
-	
-	
-	
-	
-	
 	local fontEdit = CreateFrame("EditBox", nil, addon.configPanel)
 	fontEdit:SetMultiLine(false)
 	fontEdit:SetWidth(40)

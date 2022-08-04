@@ -14,10 +14,122 @@ tipsMap = {
 		--
 	[99999] = {{"Important", "PlaceholderImportant"}, {"Important", "PlaceholderImportant"},
 				{"Advanced", "PlaceholderAdvanced"}}, -- Tirnenn Villager	
-		
+	[8903218] = {{"Important", ""}},	
 	---------------------------------------------------
 	-------------------Shadowlands---------------------
 	---------------------------------------------------
+	
+	-----------------------
+	-- Mechagon Junkyard --
+	-----------------------
+	[150146] = {{"Important", ""}}, -- Scrapbone Shaman
+	[150143] = {{"Important", ""}}, -- Scrapbone Grinder
+	[150249] = {{"Important", ""}}, -- Pistonhead Scrapper
+	[150253] = {{"Important", ""}}, -- Weaponized Crawler
+	[150547] = {{"Important", ""}}, -- Scrapbone Grunter
+	[152009] = {{"Important", ""}}, -- Malfunctioning Scrapbot
+	[150160] = {{"Important", ""}}, -- Scrapbone Bully
+	[150146] = {{"Important", ""}}, -- Scrapbone Shaman
+	[150142] = {{"Important", ""}}, -- Scrapbone Trashtosser
+	[150276] = {{"Important", ""}}, -- Heavy Scrapbot
+	[150254] = {{"Important", ""}}, -- Scraphound
+	[150250] = {{"Important", ""}}, -- Pistonhead Blaster
+	[150165] = {{"Important", ""}}, -- Slime Elemental
+	[150195] = {{"Important", ""}}, -- Gnome-Eating Slime
+	[150297] = {{"Important", ""}}, -- Mechagon Renormalizer
+	[155094] = {{"Important", ""}}, -- Mechagon Trooper
+	[155090] = {{"Important", ""}}, -- Anodized Coilbearer
+	[150168] = {{"Important", ""}}, -- Toxic Monstrosity
+	[150169] = {{"Important", ""}}, -- Toxic Lurker
+	[150292] = {{"Important", ""}}, -- Mechagon Cavalry
+	[150293] = {{"Important", ""}}, -- Mechagon Prowler
+	
+	[150159] = {{"Important", ""}}, -- King Gobbamak
+	[150712] = {{"Important", ""}}, -- Trixie Tazer
+	[153755] = {{"Important", ""}}, -- Naeno Megacrash
+	[150222] = {{"Important", ""}}, -- Gunker
+	[150295] = {{"Important", ""}}, -- Tank Buster MK 1
+	[150190] = {{"Important", ""}}, -- HK-8 Aerial Oppression Unit
+	
+	-----------------------
+	-- Mechagon Workshop --
+	-----------------------
+	[151657] = {{"Important", ""}}, -- Bomb Tonk
+	[151658] = {{"Important", ""}}, -- Strider Tonk
+	[151659] = {{"Important", ""}}, -- Rocket Tonk
+	[144293] = {{"Important", ""}}, -- Waste Processing Unit
+	[144301] = {{"Important", ""}}, -- Living Waste
+	[151773] = {{"Important", ""}}, -- Junkyard D.0.G
+	[144303] = {{"Important", ""}}, -- GUARD
+	[144294] = {{"Important", ""}}, -- Mechagon Tinkerer
+	[144298] = {{"Important", ""}}, -- Defense Bot Mk III
+	[151649] = {{"Important", ""}}, -- Defense Bot Mk I
+	[151476] = {{"Important", ""}}, -- Blastatron X-80
+	[151812] = {{"Important", ""}}, -- Detect o bot
+	[144295] = {{"Important", ""}}, -- Mechagon Mechanic
+	[144296] = {{"Important", ""}}, -- Spider Tank
+	[144299] = {{"Important", ""}}, -- Workshop Defender
+	
+	[144244] = {{"Important", ""}}, -- Platinum Pummeler
+	[145185] = {{"Important", ""}}, -- Gnomercy
+	[144246] = {{"Important", ""}}, -- Ku'j0
+	[144248] = {{"Important", ""}}, -- Head Machinist Sparkflux
+	[150396] = {{"Important", ""}}, -- Aerial Unit R-21/X (King Mechagon)
+	[144249] = {{"Important", ""}}, -- Omega Buster (King Mechagon)
+	[150397] = {{"Important", ""}}, -- King Mechagon
+	
+	
+	--------------------
+	-- Grimrail Depot --
+	--------------------
+	[81235] = {{"Important", ""}}, -- Grimrail Laborer
+	[81212] = {{"Important", ""}}, -- Grimrail Overseer
+	[81236] = {{"Important", ""}}, -- Grimrail Technician
+	[81407] = {{"Important", ""}}, -- Grimrail Bombardier
+	[80940] = {{"Important", ""}}, -- Iron Infantry
+	[80937] = {{"Important", ""}}, -- Grom'kar Gunner
+	[80936] = {{"Important", ""}}, -- Grom'kar Grenadier
+	[88163] = {{"Important", ""}}, -- Grom'kar Cinderseer
+	[80935] = {{"Important", ""}}, -- Grom'kar Boomer
+	[80938] = {{"Important", ""}}, -- Grom'kar Hulk
+	[82579] = {{"Important", ""}}, -- Grom'kar Far Seer
+	[82594] = {{"Important", ""}}, -- Grimrail Loader
+	[82597] = {{"Important", ""}}, -- Grom'kar Captain
+	
+	[77816] = {{"Important", ""}}, -- Borka the Brute
+	[77803] = {{"Important", ""}}, -- Railmaster Rocketspark
+	[79545] = {{"Important", ""}}, -- Nitrogg Thundertower
+	[79548] = {{"Important", ""}}, -- Assault Cannon
+	[80005] = {{"Important", ""}}, -- Skylord Tovra
+	
+	---------------
+	--Iron Docks --
+	---------------
+	[83028] = {{"Important", ""}}, -- Grom'kar Deadeye
+	[81283] = {{"Important", ""}}, -- Grom'kar Footsoldier
+	[83025] = {{"Important", ""}}, -- Grom'kar Battlemaster
+	[83578] = {{"Important", ""}}, -- Ogron Laborer
+	[81432] = {{"Important", ""}}, -- Grom'kar Technician
+	[83026] = {{"Important", ""}}, -- Siegemaster Olugar
+	[86809] = {{"Important", ""}}, -- Grom'kar Incinerator
+	[84520] = {{"Important", ""}}, -- Pitwarden Gwarnok
+	[83762] = {{"Important", ""}}, -- Grom'kar Deckhand
+	[86526] = {{"Important", ""}}, -- Grom'kar Chainmaster
+	[81279] = {{"Important", ""}}, -- Grom'kar Flameslinger
+	[83392] = {{"Important", ""}}, -- Rampaging Clefthoof
+	[83390] = {{"Important", ""}}, -- Thunderlord Wrangler
+	[83389] = {{"Important", ""}}, -- Ironwing Flamespitter
+	[84028] = {{"Important", ""}}, -- Siegemaster Rokra
+	
+	[81297] = {{"Important", ""}}, -- Dreadfang
+	[81305] = {{"Important", ""}}, -- Fleshrender Nok'gar
+	[80805] = {{"Important", ""}}, -- Makogg Emberblade
+	[80816] = {{"Important", ""}}, -- Ahri'ok Dugru
+	[80808] = {{"Important", ""}}, -- Neesa Nox
+	[83612] = {{"Important", ""}}, -- Skulloc
+	[83613] = {{"Important", ""}}, -- Koramar
+	[83616] = {{"Important", ""}}, -- Zoggosh
+	
 	
 	--------------
 	-- Tazevesh --

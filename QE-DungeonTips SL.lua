@@ -121,6 +121,11 @@ local iconList = {
 addon.acceptedDungeons = {
 
 	-- Shadowlands	
+	[595] = true, -- Iron Docks
+	[606] = true, -- Grimrail Depot
+	[608] = true, -- Grimrail Depot
+	[609] = true, -- Grimrail Depot
+	
 	[1683] = true, -- Theater of Pain
 	[1684] = true, -- Theater of Pain
 	[1685] = true, -- Theater of Pain
@@ -236,6 +241,12 @@ addon.acceptedDungeons = {
 	[1153] = true, -- Uldir
 	[1154] = true, -- Uldir
 	[1155] = true, -- Uldir
+	
+	[1490] = true, -- Mechagon Junkyard
+	[1491] = true, -- Mechagon Workshop
+	[1493] = true, -- Mechagon Workshop
+	[1494] = true, -- Mechagon Workshop
+	[1497] = true, -- Mechagon Workshop
 	
 	-- Legion
 	[751] = true, -- Blackrook Hold

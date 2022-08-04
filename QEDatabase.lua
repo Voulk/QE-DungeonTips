@@ -82,51 +82,88 @@ tipsMap = {
 	--------------------
 	-- Grimrail Depot --
 	--------------------
-	[81235] = {{"Important", ""}}, -- Grimrail Laborer
-	[81212] = {{"Important", ""}}, -- Grimrail Overseer
-	[81236] = {{"Important", ""}}, -- Grimrail Technician
-	[81407] = {{"Important", ""}}, -- Grimrail Bombardier
-	[80940] = {{"Important", ""}}, -- Iron Infantry
-	[80937] = {{"Important", ""}}, -- Grom'kar Gunner
-	[80936] = {{"Important", ""}}, -- Grom'kar Grenadier
-	[88163] = {{"Important", ""}}, -- Grom'kar Cinderseer
-	[80935] = {{"Important", ""}}, -- Grom'kar Boomer
-	[80938] = {{"Important", ""}}, -- Grom'kar Hulk
-	[82579] = {{"Important", ""}}, -- Grom'kar Far Seer
-	[82594] = {{"Important", ""}}, -- Grimrail Loader
-	[82597] = {{"Important", ""}}, -- Grom'kar Captain
+	[81235] = {{"Important", "A mostly unimportant mob."}}, -- Grimrail Laborer
+	[81212] = {{"Important", "FRONTAL CLEAVE."}}, -- Grimrail Overseer
+	[81236] = {{"Interrupts", "Interrupt (!!): Activating (activates an Iron Star which deals heavy AoE damage)"},
+				{"Interrupts", "Stun Interrupt (!!): 50,000 Volts (Stun + ST Damage)"}}, -- Grimrail Technician
+	[81407] = {{"Important", "Throws down red circles which you have to dodge."},
+				{"Important", "It's often easier to pull these back into the boss room."}}, -- Grimrail Bombardier
+	[80940] = {{"Important", "No notable abilities"}}, -- Iron Infantry
+	[80937] = {{"Important", "During Shrapnel Blast: Move behind the Gunner to avoid the heavy, stacking DoT."}}, -- Grom'kar Gunner
+	[80936] = {{"Important", "Throws Grenades at people. They can technically be dodged by moving as it's cast, but it might be easier to just stay lightly spread."}}, -- Grom'kar Grenadier
+	[88163] = {{"Important", "SPREAD OUT."},
+				{"Important", "When Flame Wreath goes out it'll silence an ally but if nobody is nearby then it'll end instantly."}}, -- Grom'kar Cinderseer
+	[80935] = {{"Dodge", "DODGE: The big red circles (Blackrock Mortar)"},
+							{"Dodge", "During Cannon Barrage: Rotate around the mob so you're not in the line of fire."}}, -- Grom'kar Boomer
+	[80938] = {{"Important", "Deals increasingly high melee damage over time."},
+				{"Important", "Either focus this mob down, or use externals and heavy defensives to keep your tank alive."}}, -- Grom'kar Hulk
+	[82579] = {{"Important", "Purge: Lightning Shield (dmg taken on attack)"}}, -- Grom'kar Far Seer
+	[82594] = {{"Important", "No notable abilities."}}, -- Grimrail Loader
+	[82597] = {{"Important", "If the Captain charges to you, move to avoid the Reckless Slash."}}, -- Grom'kar Captain
+	[82590] = {{"Interrupts", "Stun Interrupt: Arcane Blitz (puts a dmg puddle on the floor)"},
+				{"Important", "Avoid any purple spots on the ground."}}, -- Grimrail Scout
 	
-	[77816] = {{"Important", ""}}, -- Borka the Brute
-	[77803] = {{"Important", ""}}, -- Railmaster Rocketspark
-	[79545] = {{"Important", ""}}, -- Nitrogg Thundertower
-	[79548] = {{"Important", ""}}, -- Assault Cannon
-	[80005] = {{"Important", ""}}, -- Skylord Tovra
+	[77816] = {{"Important", "Important: Kill both at the same time or they'll enrage."},
+				{"Important", "When Rocketspark flies into the air: Tank needs to aim Mad Dash at him to interrupt the cast."},
+				{"Important", "Slam interrupts spell casts."}}, -- Borka the Brute
+	[77803] = {{"Important", "Important: Kill both at the same time or they'll enrage."},
+				{"Important", "When Rocketspark flies into the air: Tank needs to aim Mad Dash at him to interrupt the cast."},
+				{"Important", "Slam interrupts spell casts."}}, -- Railmaster Rocketspark
+	[79545] = {{"Important", "P1 (until 60%) takes place in an ultra cramped room. Spread as much as you can."},
+				{"Important", "P2: Kill Boomer adds to loot Mortar Shells."},
+				{"Important", "Click on a cannon with a shell and then use Homing Shell on the Assault Cannon"},
+				{"Important", "Three Homing Shells will break the cannon."},
+				{"Dodge", "When targeted by Suppression Fire: Run behind a pillar."}}, -- Nitrogg Thundertower
+	[79548] = {{"Important", "P1 (until 60%) takes place in an ultra cramped room. Spread as much as you can."},
+				{"Important", "P2: Kill Boomer adds to loot Mortar Shells."},
+				{"Important", "Click on a cannon with a shell and then use Homing Shell on the Assault Cannon"},
+				{"Important", "Three Homing Shells will break the cannon."},
+				{"Dodge", "When targeted by Suppression Fire: Run behind a pillar."}}, -- Assault Cannon
+	[80005] = {{"Important", "You can't dodge the initial breath damage, but can get out of the floor effect afterwards."},
+				{"Important", "Get ready to pop defensives and health potions here since damage is high."},
+				{"Dodge", "Dodge: Freezing Snares. The boss will place them under random players."},
+				{"Dodge", "Dodge: Spinning Spear. Randomly targeted. If the boss is facing your direction then get ready to side step."}}, -- Skylord Tovra
 	
 	---------------
 	--Iron Docks --
 	---------------
-	[83028] = {{"Important", ""}}, -- Grom'kar Deadeye
-	[81283] = {{"Important", ""}}, -- Grom'kar Footsoldier
+	[83028] = {{"Important", "Has a slow but not too dangerous."}}, -- Grom'kar Deadeye
+	[81283] = {{"Important", "No notable abilities."}}, -- Grom'kar Footsoldier
 	[83025] = {{"Important", ""}}, -- Grom'kar Battlemaster
-	[83578] = {{"Important", ""}}, -- Ogron Laborer
+	[83578] = {{"Important", "Deals heavy tank damage and moderate AoE."}}, -- Ogron Laborer
 	[81432] = {{"Important", ""}}, -- Grom'kar Technician
-	[83026] = {{"Important", ""}}, -- Siegemaster Olugar
-	[86809] = {{"Important", ""}}, -- Grom'kar Incinerator
-	[84520] = {{"Important", ""}}, -- Pitwarden Gwarnok
+	[83026] = {{"Important", "Melee: Move 5 yards away during Shattering Strike cast."},
+				{"Important", "Ranged: Move if Olugar throws his weapon at you."}}, -- Siegemaster Olugar
+	[86809] = {{"Important", "No notable abilities."}}, -- Grom'kar Incinerator
+	[84520] = {{"Important", "Stay out of melee during Bladestorm."},
+				{"Important", "Will sometimes chain in a random ranged player. Pop a defensive and run out."}}, -- Pitwarden Gwarnok
 	[83762] = {{"Important", ""}}, -- Grom'kar Deckhand
 	[86526] = {{"Important", ""}}, -- Grom'kar Chainmaster
 	[81279] = {{"Important", ""}}, -- Grom'kar Flameslinger
 	[83392] = {{"Important", ""}}, -- Rampaging Clefthoof
 	[83390] = {{"Important", ""}}, -- Thunderlord Wrangler
 	[83389] = {{"Important", ""}}, -- Ironwing Flamespitter
-	[84028] = {{"Important", ""}}, -- Siegemaster Rokra
+	[84028] = {{"Important", "Melee: Move 5 yards away during Shattering Strike cast."},
+				{"Important", "Ranged: Move if Rokra throws her weapon at you."}}, -- Siegemaster Rokra
 	
-	[81297] = {{"Important", ""}}, -- Dreadfang
-	[81305] = {{"Important", ""}}, -- Fleshrender Nok'gar
-	[80805] = {{"Important", ""}}, -- Makogg Emberblade
-	[80816] = {{"Important", ""}}, -- Ahri'ok Dugru
-	[80808] = {{"Important", ""}}, -- Neesa Nox
-	[83612] = {{"Important", ""}}, -- Skulloc
+	[81297] = {{"Important", "You can stand on top of chains to avoid the Burning Arrows. Alternatively just move out of them."},
+				{"Important", "During Reckless Provocation: Do NOT DPS the boss. You will get Feared."},
+				{"Important", "When the boss dismounts, finish off Dreadfang first and Nok'gar afterwards."}}, -- Dreadfang
+	[81305] = {{"Important", "You can stand on top of chains to avoid the Burning Arrows. Alternatively just move out of them."},
+				{"Important", "During Reckless Provocation: Do NOT DPS the boss. You will get Feared."},
+				{"Important", "When the boss dismounts, finish off Dreadfang first and Nok'gar afterwards."}}, -- Fleshrender Nok'gar
+	[80805] = {{"Important", "Will summon lava waves 5 yards from him. VERY DANGEROUS."},
+				{"Important", "Make sure you are either stacked close to the boss, or a good distance away."}}, -- Makogg Emberblade
+	[80816] = {{"Important", "Will put an absorb shield on lowest health enemy. Do NOT DPS through it. If you do it'll heal them all for a lot."},
+				{"Interrupts", "Interrupt: Blood Bolt (ST damage)"}}, -- Ahri'ok Dugru
+	[80808] = {{"Important", "Avoid the mines on the ground."},
+				{"Important", "Kill order is Ahri > Makogg > Neesa."}}, -- Neesa Nox
+	[79852] = {{"Important", "Time to Feed: Will pick one person and deal heavy damage to them. Deal 8% of his health to break them out."},
+				{"Important", "This person will require heavy healing."},
+				{"Important", "When he releases adds from a cage, stun them and DPS them down."}}, -- Oshir
+	[83612] = {{"Important", "Skulloc has two adds, Zoggosh will activate after the other dies. Hard nuke Koramar."},
+				{"Dodge", "Koramar will jump to random targets, bladestorm and has a frontal cleave."},
+				{"Important", "Cannon Barrage: Hide behind the walls as the 5s casts complete. Reaching the boss will end the phase."}}, -- Skulloc
 	[83613] = {{"Important", ""}}, -- Koramar
 	[83616] = {{"Important", ""}}, -- Zoggosh
 	

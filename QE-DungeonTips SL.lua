@@ -298,6 +298,12 @@ addon.acceptedDungeons = {
 	[711] = true, -- Vault of the Wardens
 	[712] = true, -- Vault of the Wardens
 	
+
+	-- Dragonflight
+	[429] = true, -- Temple of the Jade Serpent
+	[430] = true, -- Temple of the Jade Serpent
+
+
 	[1] = true -- Bookstop
 	
 }
@@ -401,44 +407,44 @@ local function addFrameLine(tooltip, tips, type, role, class)
 	end
 end
 
-
-
-
--- This starts the ball rolling. This function is called whenever an NPC tooltip is moused over.
-GameTooltip:HookScript("OnTooltipSetUnit", function(self)
-	
+-- The addline function hooks into the WoW API to add a line to an NPC's tooltip.
+local function addLineNew(tooltip, data)
   if C_PetBattles.IsInBattle() then return end -- Tiny Snippet to disable the mod while pet battling.
   if QEConfig.ShowFrame == "Show in separate frame" and QEConfig.TargetTrigger == "Show targeted mob" then return end -- Tiny Snippet to disable the tooltip hook if targeting is selected instead.
   if QEConfig.ShowFrame == "Show in separate frame" and QEConfig.TargetTrigger == "Show mouseover" and QE_onBoss then return end -- Disable tooltip hook if player is using frame + Mouseover but is on boss
   if not addon:checkInstance() then return end -- We won't be adding anything to tooltips if the addon is disabled in the current instance.
-  
-  local unit = select(2, self:GetUnit()) -- This grabs information about the unit we have targeted.
   local role = UnitGroupRolesAssigned("player")
   local _, class, _ = UnitClass("player")
   
-	if unit then
-		local guid = UnitGUID(unit) or ""
+	if data then
+		local guid = data.guid or ""
 		local id = tonumber(guid:match("-(%d+)-%x+$"), 10) -- This is the mobs ID. Don't worry about the regex.
-		local name = UnitName(unit) or ""
-		
+		local name = data.lines[1].leftText or ""
+
 		-- Check our dictionary to see if we actually have any tips for the mob targeted.
 		if tipsMap[id] then
 			-- Don't remove active tip if you accidentally mouse over ally.
 			QE_TipText:SetText("")
 			QE_MobName:SetText(name)	
-		
+
 			if QEConfig.ShowFrame == "Show in separate frame" then addFrameLine(QE_TipPanel, tipsMap[id], "NPC ID:", role, class) 
-			else addLine(GameTooltip, tipsMap[id], "NPC ID:", role, class)
+			else addLine(tooltip, tipsMap[id], "NPC ID:", role, class)
 			end
-		
-		elseif UnitIsEnemy(unit, "player") then
+
+
+		elseif UnitIsEnemy(guid, "player") then
 			QE_TipText:SetText("")
 			QE_MobName:SetText(name)
-		end
-		
-	
-  end 
-end)
+		end 
+	end
+
+
+end
+
+-- This starts the ball rolling. This function is called whenever an NPC tooltip is moused over.
+--GameTooltip:HookScript("OnTooltipSetUnit", function(self)
+TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Unit, addLineNew)
+
 
 -- This starts the ball rolling on a mob target.
 function addon:getTarget(mobType)

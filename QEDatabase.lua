@@ -15,10 +15,94 @@ tipsMap = {
 	[99999] = {{"Important", "PlaceholderImportant"}, {"Important", "PlaceholderImportant"},
 				{"Advanced", "PlaceholderAdvanced"}}, -- Tirnenn Villager	
 	[8903218] = {{"Important", ""}},	
+
+	---------------------------------------------------
+	-------------------Dragonflight--------------------
+	---------------------------------------------------
+
+
+	-------------------------
+	-- Jade Serpent Temple --
+	-------------------------
+
+	[59555] = {{"Important", ""}}, -- Haunting Sha
+	[65314] = {{"Important", ""}}, -- Xiang
+	[59547] = {{"Important", ""}}, -- Jiang
+	[59598] = {{"Important", ""}}, -- Lesser Sha
+	[59546] = {{"Important", ""}}, -- The Talking Fish
+	[59553] = {{"Important", ""}}, -- The Songbird Queen
+	[59545] = {{"Important", ""}}, -- The Golden Beetle
+	[59552] = {{"Important", ""}}, -- The Crybaby Hozen
+	[59544] = {{"Important", ""}}, -- The Nodding Tiger
+	[57080] = {{"Important", ""}}, -- Corrupted Scroll
+	[62358] = {{"Important", ""}}, -- Corrupt Droplet
+	[200126] = {{"Important", ""}}, -- Fallen Waterspeaker
+	[59873] = {{"Important", ""}}, -- Corrupt Living Water
+	[200387] = {{"Important", ""}}, -- Shambling Infester
+	[200137] = {{"Important", ""}}, -- Depraved Mistweaver
+	[200131] = {{"Important", ""}}, -- Sha-Touched Guardian
+	[57109] = {{"Important", ""}}, -- Minion of Doubt
+	
+
+	[56448] = {{"Important", ""}}, -- Wise Mari
+	[59051] = {{"Important", ""}}, -- Strife
+	[59726] = {{"Important", ""}}, -- Peril
+	[56732] = {{"Important", ""}}, -- Liu Flameheart
+	[56439] = {{"Important", ""}}, -- Sha of Doubt
+
+
+	----------------------
+	-- Nokhud Offensive --
+	----------------------
+	[192789] = {{"Important", ""}}, -- Nokhud Longbow
+	[192791] = {{"Important", ""}}, -- Nokhud Warspear
+	[192796] = {{"Important", ""}}, -- Nokhud Hornsounder
+	[191847] = {{"Important", ""}}, -- Nokhud Plainstomper
+	[192803] = {{"Important", ""}}, -- War Ahuna
+	[192794] = {{"Important", ""}}, -- Nokhud Beastmaster
+	[192800] = {{"Important", ""}}, -- Nokhud Lancemaster
+	[195696] = {{"Important", ""}}, -- Primalist Thunderbeast
+
+	[194317] = {{"Important", ""}}, -- Stormcaller Boroo
+	[194898] = {{"Important", ""}}, -- Primalist Arcblade
+	[194897] = {{"Important", ""}}, -- Stormsurge Totem
+	[195579] = {{"Important", ""}}, -- Primal Gust
+	[194315] = {{"Important", ""}}, -- Primal Stormshield
+	[194315] = {{"Important", ""}}, -- Stormcaller Solongo
+	[194894] = {{"Important", ""}}, -- Primalist Stormspeaker
+	[194895] = {{"Important", ""}}, -- Unstable Squall
+	[196263] = {{"Important", ""}}, -- Nokhud Neophyte
+	[194316] = {{"Important", ""}}, -- Stormcaller Zarii
+	[195265] = {{"Important", ""}}, -- Stormcaller Arynga
+	[195878] = {{"Important", ""}}, -- Ukhel Beastcaller
+	[195875] = {{"Important", ""}}, -- Desecrated Bakar
+	[195876] = {{"Important", ""}}, -- Desecrated Ohuna
+	[195877] = {{"Important", ""}}, -- Risen Mystic
+	[195851] = {{"Important", ""}}, -- Ukhel Deathspeaker
+	[195855] = {{"Important", ""}}, -- Risen Warrior
+	[195842] = {{"Important", ""}}, -- Ukhel Corruptor
+	[195928] = {{"Important", ""}}, -- Soulharvester Duuren
+	[195927] = {{"Important", ""}}, -- Soulharvester Galtmaa
+	[195930] = {{"Important", ""}}, -- Soulharvester Mandakh
+	[195929] = {{"Important", ""}}, -- Soulharvester Tumen
+
+	-- Last boss trash still missing.
+	[0] = {{"Important", ""}}, -- 
+	[0] = {{"Important", ""}}, -- 
+	[0] = {{"Important", ""}}, -- 
+	[0] = {{"Important", ""}}, -- 
+	[0] = {{"Important", ""}}, -- 
+	[0] = {{"Important", ""}}, -- 
+
+	[186616] = {{"Important", ""}}, -- Granyth
+	[186615] = {{"Important", ""}}, -- The Raging Tempest
+	[0] = {{"Important", ""}}, -- Teera & Maruuk
+	[0] = {{"Important", ""}}, -- Balakar Khan
 	---------------------------------------------------
 	-------------------Shadowlands---------------------
 	---------------------------------------------------
 	
+
 	-----------------------
 	-- Mechagon Junkyard --
 	-----------------------

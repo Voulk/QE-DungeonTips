@@ -34,9 +34,9 @@ function createQEFrame()
 	QE_ParentFrame:EnableMouse(true)
 	QE_ParentFrame:SetWidth(420)
 	QE_ParentFrame:SetHeight(120)
-	QE_ParentFrame:SetMinResize(300, 90) -- Real, change back to this
-	--QE_ParentFrame:SetMinResize(20, 90) -- For testing wraps
-	QE_ParentFrame:SetMaxResize(500, 200)
+	--QE_ParentFrame:SetMinResize(300, 90) -- Real, change back to this
+	QE_ParentFrame:SetResizeBounds(300, 90, 500, 200)
+	--QE_ParentFrame:SetMaxResize(500, 200)
 	QE_ParentFrame:RegisterForDrag("LeftButton")
 	QE_ParentFrame:SetScript("OnDragStart", function(self) self:StartMoving() end)
 	QE_ParentFrame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
@@ -83,7 +83,7 @@ end)
 	QE_HeaderPanelTexture:SetAllPoints(QE_HeaderPanel)
 	
 	-- Header Text
-	headerQE = QE_HeaderPanel:CreateFontString("QE_HeaderText", nil, nil)
+	headerQE = QE_HeaderPanel:CreateFontString("QE_HeaderText", "ARTWORK", "GameFontNormal")
 	headerQE:SetPoint("TOPLEFT", 5, -4)
 	headerQE:SetPoint("TOPRIGHT", 5, -4)
 	headerQE:SetFont("Fonts\\SKURRI.TTF", 16, "OUTLINE")
@@ -126,7 +126,7 @@ end)
 	
 	
 
-	QE_MobName = QE_TipPanel:CreateFontString("QE_MobName", nil, nil)
+	QE_MobName = QE_TipPanel:CreateFontString("QE_MobName", "OVERLAY", "GameFontNormal")
 	QE_MobName:SetPoint("TOPLEFT", 5, -5)
 	QE_MobName:SetPoint("TOPRIGHT", 5, -5)
 	QE_MobName:SetWordWrap(true)
@@ -136,7 +136,7 @@ end)
 	QE_MobName:SetText(" ")
 
 	-- Frame Tip Text
-	QE_TipText = QE_TipPanel:CreateFontString("QE_TipText", nil, GameFontNormal)
+	QE_TipText = QE_TipPanel:CreateFontString(nil, "OVERLAY", "GameFontNormal") -- "QE_TipText"
 	QE_TipText:SetPoint("TOPLEFT", QE_MobName, "BOTTOMLEFT", 0, -3)
 	QE_TipText:SetPoint("TOPRIGHT", QE_MobName, "BOTTOMRIGHT", -3, -3)
 	QE_TipText:SetPoint("BOTTOMLEFT", QE_ParentFrame, "BOTTOMLEFT", 0, 0)
@@ -394,6 +394,5 @@ end
 
 QE_onBoss = false
 
---createQEFrame()
 
 

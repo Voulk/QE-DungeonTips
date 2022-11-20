@@ -98,6 +98,31 @@ tipsMap = {
 	[186615] = {{"Important", ""}}, -- The Raging Tempest
 	[0] = {{"Important", ""}}, -- Teera & Maruuk
 	[0] = {{"Important", ""}}, -- Balakar Khan
+
+
+	-----------------------
+	-- Algeth'ar Academy --
+	-----------------------
+	[196045] = {{"Important", ""}}, -- Corrupted Manafiend
+	[196576] = {{"Important", ""}}, -- Spellbound Scepter
+	[196577] = {{"Important", ""}}, -- Spellbound Battleaxe
+	[196671] = {{"Important", ""}}, -- Arcane Ravager
+	[196694] = {{"Important", ""}}, -- Arcane Forager
+	[196044] = {{"Important", ""}}, -- Unruly Textbook
+	[192680] = {{"Important", ""}}, -- Guardian Sentry
+	[197406] = {{"Important", ""}}, -- Aggravated Skitterfly
+	[197398] = {{"Important", ""}}, -- Hungry Lasher
+	[197219] = {{"Important", ""}}, -- Vile Lasher
+	[192329] = {{"Important", ""}}, -- Territorial Eagle
+
+	[19] = {{"Important", ""}}, -- Vexamus
+	[196482] = {{"Important", ""}}, -- Overgrown Ancient
+	[19] = {{"Important", ""}}, -- Crawth
+	[19] = {{"Important", ""}}, -- 
+
+
+
+
 	---------------------------------------------------
 	-------------------Shadowlands---------------------
 	---------------------------------------------------

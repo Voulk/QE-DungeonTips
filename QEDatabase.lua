@@ -94,10 +94,26 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- 
 	[0] = {{"Important", ""}}, -- 
 
-	[186616] = {{"Important", ""}}, -- Granyth
-	[186615] = {{"Important", ""}}, -- The Raging Tempest
-	[0] = {{"Important", ""}}, -- Teera & Maruuk
-	[0] = {{"Important", ""}}, -- Balakar Khan
+	[186616] = {{"Important", "There are three Lances (big crossbows) around his arena. Clicking one will stun the boss for 5 seconds."},
+				{"Important", "You will want to use one of these to cancel the bosses 'Eruption' cast which will kill you quickly otherwise."},
+				{"Important", "Mythic: The boss will spawn a Saboteur add that'll try and disable the Lances. Kill these quickly. You can CC them."}
+				{"Important", "Dodge: The big circle cast around the boss."}} -- Granyth
+	[186615] = {{"Important", "Boss will spawn orbs. Picking them up deals dmg to you, but gives you +5% dmg / healing buff that stacks."},
+				{"Important", "Avoid letting any orbs hit the boss, but pop a defensive if you're going to hit a lot of them at once."}
+				{"Important", "Orb buff lasts 15 seconds and you should try and refresh it before it runs out."},
+				{"Important", "When big blue circle: Avoid stacking up. Can use these to kill any excess orbs too."},
+				{"Important", "Purge (!!): Energy Surge (+100% atk spd + nature damage)"},
+				{"TANK", "If you run out of range of the boss, he'll do heavy nature damage to you."},
+				{"HEALER", "Very high damage fight. Make sure you get orbs yourself since you'll need them to heal it."}}, -- The Raging Tempest
+	[0] = {{"Important", "Aim to keep the bosses close together. They jump around a bit."},
+				{"Important", "When targeted with arrow: Run out of the group. You'll drop tornadoes."},
+				{"Dodge", "Dodge: Brown swirlies. These spawn under players so it can be easier to handle if you all stack."},
+				{"Dodge", "Dodge: Big purple circle. This will fear you and it's a big circle so run ASAP."},
+				{"INTERRUPTS", "Interrupt (!): Guardian Wind (AoE pushback)"}}, -- Teera & Maruuk
+	[0] = {{"Important", "When targeted with circle: Walk out of the group, and then run after the spear lands since the boss will charge that location."},
+			{"Important", "During Upheaval: Walk out of the brown cone, and then separate so that you don't splash each other."},
+			{"Important", "P2 (60%): Boss will channel and adds will activate. CC and kill them. They aren't too dangerous."},
+			{"Important", "P2: When pulled in by Static Spear, run ASAP. Use mobility if you have it since boss will charge that location."}}, -- Balakar Khan
 
 
 	-----------------------

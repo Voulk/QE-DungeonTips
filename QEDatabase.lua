@@ -229,10 +229,22 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[181861] = {{"Important", ""}}, -- Magmatusk
-	[189340] = {{"Important", ""}}, -- Chargath
-	[189478] = {{"Important", ""}}, -- Forgemaster Gorek
-	[189901] = {{"Important", ""}}, -- Warlord Sargha
+	[181861] = {{"Dodge", "Lava Spray will target a random player and do a cone of damage towards them."}, 
+				{"Dodge", "Boss will charge towards a wall, causing lava waves that must be dodged."},
+				{"Important", "The longer the fight goes on, the more tentacles and waves the party must deal with."},
+				{"Important", "If the boss stands in lava, he will deal 50% more damage."}}, -- Magmatusk
+	[189340] = {{"Important", "Boss will chain 3 players to the floor. Players should run away from chain, creating a tripwire to kite the boss over.  Once boss trips 3 times, he is stunned and takes increased damage."},
+				{"TANK", "During Fiery Fixate, interrupt the fixate by tripping the boss on wires."},
+				{"Dodge", "Dodge the waves and fire puddles coming from the boss."},
+				{"Defensives", "If targetted by the Dragon Strike bleed, pop a defensive to make your healer happy."}}, -- Chargath
+	[189478] = {{"Dodge", "When boss returns to anvil, be prepared to dodge the hammers he will throw at the group."}, 
+				{"Dodge", "Dodge the fire swirls during the encounter.  Fire bad, no buff."},
+				{"Important", "Once defeated, a player with Blacksmithing can click the anvil, granting action button that throws the hammer at enemies."}}, -- Forgemaster Gorek
+	[189901] = {{"Important", "During Magma shield, dig through piles of gold to find items that will break the shield faster."},
+				{"Dodge", "Dodge the firey swirlies while digging for items."},
+				{"PriorityTargets", "Once the shield is broken, boss will take 100% increased damage."},
+				{"Important", "Raging Embers spawn and fixate players, dropping lava puddles - CC and slow to conserve space, the add will disappear when the fixate ends."},
+				{"Dodge", "Dodge the randomly aimed frontal cone (The Dragon's Kiln)."}}, -- Warlord Sargha
 
 	----------------------
 	-- Nokhud Offensive --

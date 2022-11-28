@@ -191,7 +191,7 @@ tipsMap = {
 	-------------------------
 
 	-- Unique Action Items
-	[197560] = {{"Important", "If a player has 25+ Engineering skill, click this to unlock a Cheat Death buff on players (disappears after it procs once)."}} -- Limited Immortality Device
+	[197560] = {{"Important", "If a player has 25+ Engineering skill, click this to unlock a Cheat Death buff on players (disappears after it procs once)."}}, -- Limited Immortality Device
 
 	-- Trash
 	[0] = {{"Important", ""}}, -- Mob
@@ -292,10 +292,10 @@ tipsMap = {
 	-- Bosses
 	[186616] = {{"Important", "There are three Lances (big crossbows) around his arena. Clicking one will stun the boss for 5 seconds."},
 				{"Important", "You will want to use one of these to cancel the bosses 'Eruption' cast which will kill you quickly otherwise."},
-				{"Important", "Mythic: The boss will spawn a Saboteur add that'll try and disable the Lances. Kill these quickly. You can CC them."}
-				{"Important", "Dodge: The big circle cast around the boss."}} -- Granyth
+				{"Important", "Mythic: The boss will spawn a Saboteur add that'll try and disable the Lances. Kill these quickly. You can CC them."},
+				{"Important", "Dodge: The big circle cast around the boss."}}, -- Granyth
 	[186615] = {{"Important", "Boss will spawn orbs. Picking them up deals dmg to you, but gives you +5% dmg / healing buff that stacks."},
-				{"Important", "Avoid letting any orbs hit the boss, but pop a defensive if you're going to hit a lot of them at once."}
+				{"Important", "Avoid letting any orbs hit the boss, but pop a defensive if you're going to hit a lot of them at once."},
 				{"Important", "Orb buff lasts 15 seconds and you should try and refresh it before it runs out."},
 				{"Important", "When big blue circle: Avoid stacking up. Can use these to kill any excess orbs too."},
 				{"Important", "Purge (!!): Energy Surge (+100% atk spd + nature damage)"},

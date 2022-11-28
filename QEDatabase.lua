@@ -23,6 +23,7 @@ tipsMap = {
 	-----------------------
 	-- Algeth'ar Academy --
 	-----------------------
+
 	-- Trash
 	[196045] = {{"Important", ""}}, -- Corrupted Manafiend
 	[196576] = {{"Important", ""}}, -- Spellbound Scepter
@@ -37,25 +38,25 @@ tipsMap = {
 	[192329] = {{"Important", ""}}, -- Territorial Eagle
 
 	-- Bosses
-	[19] = {{"Important", "Boss will fire five orbs around the arena. You need to stand in them to soak the damage."},
-			{"Important", "At 100 energy: Pushes back all players, and then summons swirls underneath you for a few seconds."},
-			{"Important", "When circle around you: Move to the side of the room since you'll drop a puddle when it expires."},
-			{"Dodge", "Frontal Cleave (Arcane Expulsion). Will follow the tank."},
-			{"HEALER", "On Mythic: Soaking orb will put +200% orb dmg taken debuff on people. This can be dispelled."}}, -- Vexamus
+	[194181] = {{"Important", "Boss will fire five orbs around the arena. You need to stand in them to soak the damage."},
+				{"Important", "At 100 energy: Pushes back all players, and then summons swirls underneath you for a few seconds."},
+				{"Important", "When circle around you: Move to the side of the room since you'll drop a puddle when it expires."},
+				{"Dodge", "Frontal Cleave (Arcane Expulsion). Will follow the tank."},
+				{"HEALER", "On Mythic: Soaking orb will put +200% orb dmg taken debuff on people. This can be dispelled."}}, -- Vexamus
 	[196482] = {{"Important", "During Germinate: You'll drop swirls that will spawn into adds. Try and drop them all close to boss."},
 				{"Important", "When treant spawns: Interrupt it's healing casts, and kill it ASAP. It also puts a bleed on party on spawn."},
 				{"Important", "Killing the Treant will drop a healing pool that will also clear your bleeds."},
 				{"HEALER", "Mythic: Adds stack poison on target. Dispel it as often as you can."}}, -- Overgrown Ancient
-	[19] = {{"Important", "Frontal (targets random players, can be dodged)"},
+	[191736] = {{"Important", "Frontal (targets random players, can be dodged)"},
 				{"Important", "During defeaning screech: Stop casting, or include shorter casts since boss will interrupt you when it finishes."},
 				{"Important", "When Orbs spawn: Pick them up and run them to either the Fire or Wind circle then press your extra action button."},
 				{"Important", "Scoring in Fire: Boss will be stunned and take +75% damage for 12s. Fire swirls for rest of combat."},
 				{"Important", "Scoring in Wind: Players can pick up +45% haste motes until end of combat. Cyclones will spawn for rest of combat."}}, -- Crawth
-	[19] = {{"Important", "You'll get a stacking dmg buff (overwhelming power) that turns into a rift at 4 stacks. Try not to drop these in bad places."},
-			{"Important", "Rifts will occasionally release orbs which give more stacks of overwhelming power and thus spawns even more Rifts."},
-			{"Important", "When pulled in: Run out. Boss will do a 2yd AoE."},
-			{"Important", "When circle around you: Run out of the group and drop it somewhere safe."},
-			{"Dodge", "FRONTAL CLEAVE"}}, -- Echo of Doragosa
+	[190609] = {{"Important", "You'll get a stacking dmg buff (overwhelming power) that turns into a rift at 4 stacks. Try not to drop these in bad places."},
+				{"Important", "Rifts will occasionally release orbs which give more stacks of overwhelming power and thus spawns even more Rifts."},
+				{"Important", "When pulled in: Run out. Boss will do a 2yd AoE."},
+				{"Important", "When circle around you: Run out of the group and drop it somewhere safe."},
+				{"Dodge", "FRONTAL CLEAVE"}}, -- Echo of Doragosa
 
 
 	-------------------------
@@ -67,22 +68,39 @@ tipsMap = {
 	[196102] = {{"Interrupts", "Interrupt Mystic Vapors to avoid stacking DoT."}}, -- Conjured Lasher
 	[187159] = {{"Important", "CC the Shriek cast or else nearby mobs will be called into battle."}}, -- Shrieking Whelp
 	[186741] = {{"Interrupts", "Interrupt Waking Bane to prevent this sleep cast from going off, else dispel."}}, -- Arcane Elemental
-	[187154] = {{"Interrupts", "Interrupt Heavy Tome (tank damage)."}, {"Dodge", "Dodge swirls or you will be disoriented."}}, -- Unstable Curator
+	[187154] = {{"Interrupts", "Interrupt Heavy Tome (tank damage)."}, 
+				{"Dodge", "Dodge swirls or you will be disoriented."}}, -- Unstable Curator
 	[187155] = {{"Interrupts", "Interrupt Icy Bindings to avoid the groupwide root, else dispel."}}, -- Rune Seal Keeper
 	[187160] = {{"Dodge", "Frontal cone aimed at tank."}}, -- Crystal Fury
 	[196117] = {{"Important", "Do not stand in a debuffed player's Splintering Shards circle."}}, -- Crystal Thrasher
 	[186740] = {{"Dodge", "Frontal cone aimed at tank."}}, -- Arcane Construct
 	[189555] = {{"Dodge", "Dodge the dark blue swirlies from Unstable Power casts."}}, -- Astral Attendant
 	[190510] = {{"TANK", "Ice Cutter does a large amount of damage, use mitigation."}}, -- Vault Guard
-	[191739] = {{"Dodge", "Frontal cone aimed at tank."}, {"TANK", "Ice Cutter does a large amount of damage, use mitigation."}}, -- Scalebane Lieutenant
-	[187240] = {{"Important", "Shoulder Slam will target a player and knock them back, position to avoid triggering runes."}, {"Defensives", "Bestial Roar deals heavy group damage, mitigate it if possible."}}, -- Drakonid Breaker
+	[191739] = {{"Dodge", "Frontal cone aimed at tank."}, 
+				{"TANK", "Ice Cutter does a large amount of damage, use mitigation."}}, -- Scalebane Lieutenant
+	[187240] = {{"Important", "Shoulder Slam will target a player and knock them back, position to avoid triggering runes."}, 
+				{"Defensives", "Bestial Roar deals heavy group damage, mitigate it if possible."}}, -- Drakonid Breaker
 	[187246] = {{"Important", "The frogs will jump to a random ranged player's location, try to stay near melee to keep them grouped/CCed."}}, -- Nullmagic Hornswog
 	
 	-- Bossess
-	[186644] = {{"Important", "Boss will summon Ley-Line Sprouts that need to be destroyed via other mechanics.  When sprout is destroyed, a small add will spawn from it."}, {"Important", "Explosive Brand will knock back all players, debuffing them with a circle that, upon expiration, will destroy any Sprouts inside."}, {"Important", "Consuming Stomp deals group damage based on how many Sprouts are alive."}, {"Important", "Boss will cast a frontal at tank (Erupting Fissure) that will destroy any Sprouts in its path and knock back any players. Once it starts casting the frontal, it will not move."}}, -- Leymor
-	[186739] = {{"Interrupts", "When dragonkin spawn, interrupt their Illusionary Bolt casts (and kill them quickly)."}, {"Dodge", "Ancient Orb will shoot out an orb from the boss, dodge it."}, {"Important", "Boss will run to midand spawn four images, becoming immune.  Kill the images to continue the fight, while dodging orbs."}, {"Dodge", "Arcane Cleave is a frontal on tank."}, {"HEALER", "Save healing CDs for Overwhelming Energy phase."}}, -- Azureblade
-	[197025] = {{"Important", "Drop Frost Bombs (leaves an icy patch) near edges to avoid filling up space."}, {"Important", "During Absolute Zero, find the safe blue bubble on the floor and get inside."}, {"Defensives", "If targetted by Icy Devastator, help your healer by popping a defensive."},{"HEALER", "Save healing CDs for Absolute Zero."}}, -- Telash Greywing
-	[186738] = {{"TANK", "Make sure to pop something to mitigate Dragon Strike."}, {"HEALER", "Save healing CDs for Unleashed Destruction.  Be careful of the Crackling Vortex add, which will almost always target you due to healing aggro."}, {"Important", "Manage your Oppressive Miasma stacks - a slow that ramps up every time you move, lasts 10 seconds."}, {"Dodge", "Crystalline Roar is a frontal targetted at a random player."}, {"PriorityTargets", "Kill the Detonating Crystal spawns before they finish their Fracture cast."}}, -- Umbrelskul
+	[186644] = {{"Important", "Boss will summon Ley-Line Sprouts that need to be destroyed via other mechanics.  When sprout is destroyed, a small add will spawn from it."}, 
+				{"Important", "Explosive Brand will knock back all players, debuffing them with a circle that, upon expiration, will destroy any Sprouts inside."}, 
+				{"Important", "Consuming Stomp deals group damage based on how many Sprouts are alive."}, 
+				{"Important", "Boss will cast a frontal at tank (Erupting Fissure) that will destroy any Sprouts in its path and knock back any players. Once it starts casting the frontal, it will not move."}}, -- Leymor
+	[186739] = {{"Interrupts", "When dragonkin spawn, interrupt their Illusionary Bolt casts (and kill them quickly)."}, 
+				{"Dodge", "Ancient Orb will shoot out an orb from the boss, dodge it."}, 
+				{"Important", "Boss will run to midand spawn four images, becoming immune.  Kill the images to continue the fight, while dodging orbs."}, 
+				{"Dodge", "Arcane Cleave is a frontal on tank."}, 
+				{"HEALER", "Save healing CDs for Overwhelming Energy phase."}}, -- Azureblade
+	[197025] = {{"Important", "Drop Frost Bombs (leaves an icy patch) near edges to avoid filling up space."}, 
+				{"Important", "During Absolute Zero, find the safe blue bubble on the floor and get inside."}, 
+				{"Defensives", "If targetted by Icy Devastator, help your healer by popping a defensive."},
+				{"HEALER", "Save healing CDs for Absolute Zero."}}, -- Telash Greywing
+	[186738] = {{"TANK", "Make sure to pop something to mitigate Dragon Strike."}, 
+				{"HEALER", "Save healing CDs for Unleashed Destruction.  Be careful of the Crackling Vortex add, which will almost always target you due to healing aggro."}, 
+				{"Important", "Manage your Oppressive Miasma stacks - a slow that ramps up every time you move, lasts 10 seconds."}, 
+				{"Dodge", "Crystalline Roar is a frontal targetted at a random player."}, 
+				{"PriorityTargets", "Kill the Detonating Crystal spawns before they finish their Fracture cast."}}, -- Umbrelskul
 
 
 	-------------------------
@@ -94,37 +112,78 @@ tipsMap = {
 	[376959] = {{"Important", "To spawn the first boss, free 5 Tuskarrs within these cages - once opened, enemy gnolls will attack."}}, -- Meat Storage
 
 	-- Trash
-	[185508] = {{"TANK", "Tank buster, applies stacking bleed."}, {"Important", "Claw Fighter's will fixate players, run away or use Shadowmeld/Vanish/etc."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Claw Fighter
-	[186206] = {{"TANK", "Tank buster, applies stacking bleed and movement slow debuff."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Cruel Bonecrusher
+	[185508] = {{"TANK", "Tank buster, applies stacking bleed."}, 
+				{"Important", "Claw Fighter's will fixate players, run away or use Shadowmeld/Vanish/etc."}, 
+				{"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Claw Fighter
+	[186206] = {{"TANK", "Tank buster, applies stacking bleed and movement slow debuff."}, 
+				{"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Cruel Bonecrusher
 	[185691] = {{"Important", "The hyena will reduce the tank's healing taken via Infected Bite."}}, -- Vicious Hyena
-	[185534] = {{"Important", "PriorityTargets", "Casts high damage on random players."}, {"Dodge", "Dodge the Toxic Traps."}, {"Defensives", "If targetted by Bone Bolt, help your healer out by popping a defensive."}}, -- Bonebolt Hunter
+	[185534] = {{"Important", "PriorityTargets", "Casts high damage on random players."}, 
+				{"Dodge", "Dodge the Toxic Traps."}, {"Defensives", "If targetted by Bone Bolt, help your healer out by popping a defensive."}}, -- Bonebolt Hunter
 	[185528] = {{"Interrupts", "Interrupt Earth Bolt."}}, -- Trickclaw Mystic
 	[186191] = {{"PriorityTargets", "If a Rotchanting Totem spawns, kill it immediately, else it will stack up Withering Burst on players (disease effect)."}}, -- Decay Speaker
-	[195135] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, {"PriorityTargets", "Increases damage done of nearby allies by 15%."}, {"Interrupts", "Interrupt Hideous Cackle or get mass-feared for 7 seconds."}, {"Dodge", "Move out during Ragestorm."}}, -- Bracken Warscourge
+	[195135] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, 
+				{"PriorityTargets", "Increases damage done of nearby allies by 15%."}, 
+				{"Interrupts", "Interrupt Hideous Cackle or get mass-feared for 7 seconds."}, 
+				{"Dodge", "Move out during Ragestorm."}}, -- Bracken Warscourge
 	[186246] = {{"Interrupts", "Interrupt Screech."}}, -- Fleshripper Vulture
 	[186284] = {{"TANK", "Deals high tank damage with Maul."}}, -- Gutchewer Bear
-	[197857] = {{"TANK", "Tank buster, applies stacking bleed."}, {"Defensives", "If debuffed with Withering Poison, help your healer out by popping a defensive."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Gutstabber
-	[186208] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, {"PriorityTargets", "Increases damage done of nearby allies by 15%."}, {"Important", "PriorityTargets", "Casts high damage on random players."}, {"Defensives", "If targetted by Bone Bolt, help your healer out by popping a defensive."}, {"Dodge", "Dodge Bone Bolt Volley. (40 yard range)"}, {"Important", "CC and slow any nearby Vultures or Hyenas, as they will fixate party members if Scented Meat targets them."}}, -- Rotbow Stalker
+	[197857] = {{"TANK", "Tank buster, applies stacking bleed."}, 
+				{"Defensives", "If debuffed with Withering Poison, help your healer out by popping a defensive."}, 
+				{"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Gutstabber
+	[186208] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, 
+				{"PriorityTargets", "Increases damage done of nearby allies by 15%."}, 
+				{"Important", "PriorityTargets", "Casts high damage on random players."}, 
+				{"Defensives", "If targetted by Bone Bolt, help your healer out by popping a defensive."}, 
+				{"Dodge", "Dodge Bone Bolt Volley. (40 yard range)"}, 
+				{"Important", "CC and slow any nearby Vultures or Hyenas, as they will fixate party members if Scented Meat targets them."}}, -- Rotbow Stalker
 	[187033] = {{"Dodge", "Run away from Violent Whirlwind."}, {"Dodge", "Dodge the frontal cone, Stink Breath, or be disoriented for 4 seconds."}}, -- Stinkbreath
 	[189299] = {{"Important", "Leaves behind a puddle of slime when killed."}}, -- Decaying Slime
 	[186220] = {{"Interrupts", "Interrupt Touch of Decay."}}, -- Brackenhide Shaper
 	[189363] = {{"PriorityTargets", "Kill them quickly before the bleeds stack up."}}, -- Infected Lasher
 	[189531] = {{"Important", "Summons Infected Lashers."}}, -- Decayed Elder
 	[186229] = {{"Important", "Deals aoe damage and summons Infected Lashers."}}, -- Wilted Oak
-	[185656] = {{"Interrupts", "Interrupt Decay Surge"}, {"Dodge", "Dodge the Rotting Surge puddles."}}, -- Filth Caller
-	[187315] = {{"Important", "Tank buster, absorbing healing received and leaving a bleed."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Disease Slasher
-	[186226] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, {"PriorityTargets", "Increases damage done of nearby allies by 15% and summons dangerous Totems (kill them ASAP)."}, {"Interrupts", "Interrupt Burst of Decay"}}, -- Fetid Rotsinger
-	[187224] = {{"Important", "Spread at least 5 yards from each other to prevent spreading Withering Contagion."}, {"Important", "Run away from Siphon Decay or else the add will be empowered."}}, -- Vile Rothexer
-	[187231] = {{"TANK", "Tank buster, applies stacking bleed."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Wither Biter
+	[185656] = {{"Interrupts", "Interrupt Decay Surge"}, 
+				{"Dodge", "Dodge the Rotting Surge puddles."}}, -- Filth Caller
+	[187315] = {{"Important", "Tank buster, absorbing healing received and leaving a bleed."}, 
+				{"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Disease Slasher
+	[186226] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, 
+				{"PriorityTargets", "Increases damage done of nearby allies by 15% and summons dangerous Totems (kill them ASAP)."}, 
+				{"Interrupts", "Interrupt Burst of Decay"}}, -- Fetid Rotsinger
+	[187224] = {{"Important", "Spread at least 5 yards from each other to prevent spreading Withering Contagion."}, 
+				{"Important", "Run away from Siphon Decay or else the add will be empowered."}}, -- Vile Rothexer
+	[187231] = {{"TANK", "Tank buster, applies stacking bleed."}, 
+				{"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Wither Biter
 	
 	-- Bossess
-	[186122] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, {"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, {"Dodge", "Run away during Bladestorm."}, {"Dodge", "Auto attacks cleave on tank, do not stand in front of boss."}, {"Important", "During Savage Charge, stand in the path of boss and player to help soak the damage."}}, -- Hackclaw's War-Band (Rira Hackclaw)
-	[186124] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, {"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, {"Important", "A bleed will periodically be applied to the group, and is removed by healing above 90% health."}, {"Defensives", "If Marked for Butchery, pop a defensive to help your healer and stay alive."}, {"Important", "Dispel Decayed Senses or become mind-controlled for 15 seconds."}}, -- Hackclaw's War-Band (Gashtooth)
-	[186125] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, {"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, {"Interrupts", "Interrupt Greater Healing Rapids at all costs.  Spare interrupts can get Earth Bolt."}, {"PriorityTargets", "When a Hextrick Totem is spawned, nuke it immediately to prevent it from hexing a random player."}}, -- Hackclaw's War-Band (Tricktotem)
-	[186116] = {{"Dodge", "Dodge the Traps the boss chucks out, OR kite the Hyenas into them.  Note - When boss cast's Master's Call, hyenas will be freed."}, {"TANK", "Gut shot will deal high damage and knock you back, be careful not to get knocked into a trap."}, {"Important", "After killing the boss, it is recommended to go down the left bridge."}}, -- Gutshot
-	[194745] = {{"PriorityTargets", "Kill these quickly as they will occassionally fixate other players.  If you are fixated, run/slow/CC!"}, {"Dodge", "Avoid standing in the Bounding Leap danger zone, it will stun you."}}, -- Gutshot's adds, Rotfang Hyena
-	[186120] = {{"Dodge", "Dodge the Decay Spray frontal ability."}, {"Important", "When boss pulls group in with Grasping Vines, it will consume any player within 10 yards.  Break the shield to free the players. Do not get eaten twice in a row.  If no player is consumed, boss permanently gains a 150% damage increase."}, {"Dodge", "Be careful of the frontal Vine Whip, it follows the tank and will knock back players hit."}, {"Defensives", "If Consumed, pop a defensive to make your healer a happy healer."}}, -- Treemouth
-	[186121] = {{"Important", "At 100 energy, boss will cast Decaying Strength, which empowers her damage by 5% and applies a DoT to all players, increasing based on Withering Rot stacks."}, {"Dodge", "Avoid being hit by the Choking Rotclouds or you will be silenced and receive a stack of Withering Rot, which reduces your damage done by 5%."}, {"PriorityTargets", "Swap to the Rotburst Totem as soon as it spawns, as it applies Withering Rot."}, {"TANK", "Use mitigation during Decaystrike, it stacks and applies a healing absorb."}, {"HEALER", "Heal off the Decaystrike debuff from your tank, it is a healing absorb."}}, -- Decatriarch Wratheye
+	[186122] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, 
+				{"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, 
+				{"Dodge", "Run away during Bladestorm."}, 
+				{"Dodge", "Auto attacks cleave on tank, do not stand in front of boss."}, 
+					{"Important", "During Savage Charge, stand in the path of boss and player to help soak the damage."}}, -- Hackclaw's War-Band (Rira Hackclaw)
+	[186124] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, 
+				{"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, 
+				{"Important", "A bleed will periodically be applied to the group, and is removed by healing above 90% health."}, 
+				{"Defensives", "If Marked for Butchery, pop a defensive to help your healer and stay alive."}, 
+				{"Important", "Dispel Decayed Senses or become mind-controlled for 15 seconds."}}, -- Hackclaw's War-Band (Gashtooth)
+	[186125] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, 
+				{"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, 
+				{"Interrupts", "Interrupt Greater Healing Rapids at all costs.  Spare interrupts can get Earth Bolt."}, 
+				{"PriorityTargets", "When a Hextrick Totem is spawned, nuke it immediately to prevent it from hexing a random player."}}, -- Hackclaw's War-Band (Tricktotem)
+	[186116] = {{"Dodge", "Dodge the Traps the boss chucks out, OR kite the Hyenas into them.  Note - When boss cast's Master's Call, hyenas will be freed."}, 
+				{"TANK", "Gut shot will deal high damage and knock you back, be careful not to get knocked into a trap."}, 
+				{"Important", "After killing the boss, it is recommended to go down the left bridge."}}, -- Gutshot
+	[194745] = {{"PriorityTargets", "Kill these quickly as they will occassionally fixate other players.  If you are fixated, run/slow/CC!"}, 
+				{"Dodge", "Avoid standing in the Bounding Leap danger zone, it will stun you."}}, -- Gutshot's adds, Rotfang Hyena
+	[186120] = {{"Dodge", "Dodge the Decay Spray frontal ability."}, 
+				{"Important", "When boss pulls group in with Grasping Vines, it will consume any player within 10 yards.  Break the shield to free the players. Do not get eaten twice in a row.  If no player is consumed, boss permanently gains a 150% damage increase."}, 
+				{"Dodge", "Be careful of the frontal Vine Whip, it follows the tank and will knock back players hit."}, 
+				{"Defensives", "If Consumed, pop a defensive to make your healer a happy healer."}}, -- Treemouth
+	[186121] = {{"Important", "At 100 energy, boss will cast Decaying Strength, which empowers her damage by 5% and applies a DoT to all players, increasing based on Withering Rot stacks."},
+				 {"Dodge", "Avoid being hit by the Choking Rotclouds or you will be silenced and receive a stack of Withering Rot, which reduces your damage done by 5%."}, 
+				 {"PriorityTargets", "Swap to the Rotburst Totem as soon as it spawns, as it applies Withering Rot."}, 
+				 {"TANK", "Use mitigation during Decaystrike, it stacks and applies a healing absorb."}, 
+				 {"HEALER", "Heal off the Decaystrike debuff from your tank, it is a healing absorb."}}, -- Decatriarch Wratheye
 
 
 	-------------------------
@@ -138,11 +197,10 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
+	[189719] = {{"Important", ""}}, -- Watcher Irideus
+	[189722] = {{"Important", ""}}, -- Gulping Goliath
+	[189727] = {{"Important", ""}}, -- Khajin the Unyielding
+	[189729] = {{"Important", ""}}, -- Primal Tsunami
 
 
 	-------------------------
@@ -156,11 +214,10 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
+	[181861] = {{"Important", ""}}, -- Magmatusk
+	[189340] = {{"Important", ""}}, -- Chargath
+	[189478] = {{"Important", ""}}, -- Forgemaster Gorek
+	[189901] = {{"Important", ""}}, -- Warlord Sargha
 
 	----------------------
 	-- Nokhud Offensive --
@@ -217,15 +274,20 @@ tipsMap = {
 				{"Important", "Purge (!!): Energy Surge (+100% atk spd + nature damage)"},
 				{"TANK", "If you run out of range of the boss, he'll do heavy nature damage to you."},
 				{"HEALER", "Very high damage fight. Make sure you get orbs yourself since you'll need them to heal it."}}, -- The Raging Tempest
-	[0] = {{"Important", "Aim to keep the bosses close together. They jump around a bit."},
+	[195723] = {{"Important", "Aim to keep the bosses close together. They jump around a bit."},
 				{"Important", "When targeted with arrow: Run out of the group. You'll drop tornadoes."},
 				{"Dodge", "Dodge: Brown swirlies. These spawn under players so it can be easier to handle if you all stack."},
 				{"Dodge", "Dodge: Big purple circle. This will fear you and it's a big circle so run ASAP."},
-				{"INTERRUPTS", "Interrupt (!): Guardian Wind (AoE pushback)"}}, -- Teera & Maruuk
-	[0] = {{"Important", "When targeted with circle: Walk out of the group, and then run after the spear lands since the boss will charge that location."},
-			{"Important", "During Upheaval: Walk out of the brown cone, and then separate so that you don't splash each other."},
-			{"Important", "P2 (60%): Boss will channel and adds will activate. CC and kill them. They aren't too dangerous."},
-			{"Important", "P2: When pulled in by Static Spear, run ASAP. Use mobility if you have it since boss will charge that location."}}, -- Balakar Khan
+				{"INTERRUPTS", "Interrupt (!): Guardian Wind (AoE pushback)"}}, -- Teera (& Maruuk)
+	[186338] = {{"Important", "Aim to keep the bosses close together. They jump around a bit."},
+				{"Important", "When targeted with arrow: Run out of the group. You'll drop tornadoes."},
+				{"Dodge", "Dodge: Brown swirlies. These spawn under players so it can be easier to handle if you all stack."},
+				{"Dodge", "Dodge: Big purple circle. This will fear you and it's a big circle so run ASAP."},
+				{"INTERRUPTS", "Interrupt (!): Guardian Wind (AoE pushback)"}}, -- (Teera) & Maruuk
+	[186151] = {{"Important", "When targeted with circle: Walk out of the group, and then run after the spear lands since the boss will charge that location."},
+				{"Important", "During Upheaval: Walk out of the brown cone, and then separate so that you don't splash each other."},
+				{"Important", "P2 (60%): Boss will channel and adds will activate. CC and kill them. They aren't too dangerous."},
+				{"Important", "P2: When pulled in by Static Spear, run ASAP. Use mobility if you have it since boss will charge that location."}}, -- Balakar Khan
 
 
 	-------------------------
@@ -239,11 +301,9 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
+	[188252] = {{"Important", ""}}, -- Melidrussa Chillworn
+	[189232] = {{"Important", ""}}, -- Kokia Blazehoof
+	[193435] = {{"Important", ""}}, -- Kyrakka 
 
 
 	-------------------------
@@ -256,27 +316,27 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Haunting Sha
 
 	-- Bosses
-	[0] = {{"Dodge", "Baelog: During Heavy Arrow Cast: Avoid being in the direct line he's facing. Big damage + knockback."},
+	[6906] = {{"Dodge", "Baelog: During Heavy Arrow Cast: Avoid being in the direct line he's facing. Big damage + knockback."},
 			{"Dodge", "Dodge: Dodge the brown swirly. Erik will charge there soon after."},
 			{"Important", "Stay spread more than 5 yards where possible."},
 			{"Interrupts", "Interrupt: Defensive Bulwark (-75% boss dmg taken)."},
 			{"Important", "During Longboat: Players will drop swirls. Can move as a group to make them easier to dodge."},
 			{"Important", "Killing a dwarf early will cause swirls for rest of fight, but it's still fine to do so."}}, -- Lost Dwarves
-	[0] = {{"PriorityTargets", "Priority Target: Quaking Totem. Killing will stun all Troggs within 8 yds."},
+	[184018] = {{"PriorityTargets", "Priority Target: Quaking Totem. Killing will stun all Troggs within 8 yds."},
 			{"Important", "Boss will cast Bloodlust on all troggs. With good timing you can kill Quaking Totem just after the cast."},
 			{"Dodge", "Dodge: Big blue circles."},
 			{"Interrupts", "Interrupt (!): Chain Lightning (AoE dmg) - Cast by the Geomancers."}}, -- Bromach
-	[0] = {{"Important", "If boss reaches 100 energy: She enrages and becomes immune to CC."},
+	[184124] = {{"Important", "If boss reaches 100 energy: She enrages and becomes immune to CC."},
 			{"Important", "Drag boss through golden orbs to stun her. Avoid touching them yourself. The first, and then every 3rd Orb will stun her."},
 			{"Important", "When golden circle around you: Drop it close to boss since it'll drop an orb."},
 			{"Important", "If boss reaches 100 energy: She enrages and becomes immune to CC."},
 			{"Important", "Boss also has a knock back. Check your positioning so you don't get knocked into an Orb."}}, -- Sentinel Talondras
-	[0] = {{"Important", "FRONTAL CONE: Follows tank."},
+	[184422] = {{"Important", "FRONTAL CONE: Follows tank."},
 			{"Dodge", "Dodge: Big burning orbs"},
 			{"Important", "When boss at 100 energy: Goes immune and you have to kill adds to continue."},
 			{"Important", "Watch out for the big fire beam during intermission, and use your defensives if you're spread around the room since it's tough to heal."},
 			{"Important", "When red circle around you: Spread so that you're not in two circles at once."}}, -- Emberon
-	[0] = {{"Important", "Avoid pools on the ground until boss channels Reverse Timeflow, then stand in them during the cast."},
+	[184125] = {{"Important", "Avoid pools on the ground until boss channels Reverse Timeflow, then stand in them during the cast."},
 			{"Important", "Targeted with Time Sink debuff: Run out and get dispelled. Will spawn swirly under you on removal."},
 			{"HEALER", "Healer: Wait until the debuffed player is out before dispelling to avoid dropping a pool on top of your group."},
 			{"Dodge", "FRONTAL CONE"}}, -- Chrono-Lord Deios 

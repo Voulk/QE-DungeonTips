@@ -64,11 +64,11 @@ tipsMap = {
 
 	-- Trash
 	[191164] = {{"Interrupt", "Interrupt Erratic Growth to avoid turning player into sapling. If dispelled, spreads sapling debuff to nearby players."}}, -- Arcane Tender
-	[196102] = {{"Interrupt", "Interrupt Mystic Vapors to avoid stacking DoT."}}, -- Conjured Lasher
+	[196102] = {{"Interrupts", "Interrupt Mystic Vapors to avoid stacking DoT."}}, -- Conjured Lasher
 	[187159] = {{"Important", "CC the Shriek cast or else nearby mobs will be called into battle."}}, -- Shrieking Whelp
-	[186741] = {{"Interrupt", "Interrupt Waking Bane to prevent this sleep cast from going off, else dispel."}}, -- Arcane Elemental
-	[187154] = {{"Interrupt", "Interrupt Heavy Tome (tank damage)."}, {"Dodge", "Dodge swirls or you will be disoriented."}}, -- Unstable Curator
-	[187155] = {{"Interrupt", "Interrupt Icy Bindings to avoid the groupwide root, else dispel."}}, -- Rune Seal Keeper
+	[186741] = {{"Interrupts", "Interrupt Waking Bane to prevent this sleep cast from going off, else dispel."}}, -- Arcane Elemental
+	[187154] = {{"Interrupts", "Interrupt Heavy Tome (tank damage)."}, {"Dodge", "Dodge swirls or you will be disoriented."}}, -- Unstable Curator
+	[187155] = {{"Interrupts", "Interrupt Icy Bindings to avoid the groupwide root, else dispel."}}, -- Rune Seal Keeper
 	[187160] = {{"Dodge", "Frontal cone aimed at tank."}}, -- Crystal Fury
 	[196117] = {{"Important", "Do not stand in a debuffed player's Splintering Shards circle."}}, -- Crystal Thrasher
 	[186740] = {{"Dodge", "Frontal cone aimed at tank."}}, -- Arcane Construct
@@ -80,7 +80,7 @@ tipsMap = {
 	
 	-- Bossess
 	[186644] = {{"Important", "Boss will summon Ley-Line Sprouts that need to be destroyed via other mechanics.  When sprout is destroyed, a small add will spawn from it."}, {"Important", "Explosive Brand will knock back all players, debuffing them with a circle that, upon expiration, will destroy any Sprouts inside."}, {"Important", "Consuming Stomp deals group damage based on how many Sprouts are alive."}, {"Important", "Boss will cast a frontal at tank (Erupting Fissure) that will destroy any Sprouts in its path and knock back any players. Once it starts casting the frontal, it will not move."}}, -- Leymor
-	[186739] = {{"Interrupt", "When dragonkin spawn, interrupt their Illusionary Bolt casts (and kill them quickly)."}, {"Dodge", "Ancient Orb will shoot out an orb from the boss, dodge it."}, {"Important", "Boss will run to midand spawn four images, becoming immune.  Kill the images to continue the fight, while dodging orbs."}, {"Dodge", "Arcane Cleave is a frontal on tank."}, {"HEALER", "Save healing CDs for Overwhelming Energy phase."}}, -- Azureblade
+	[186739] = {{"Interrupts", "When dragonkin spawn, interrupt their Illusionary Bolt casts (and kill them quickly)."}, {"Dodge", "Ancient Orb will shoot out an orb from the boss, dodge it."}, {"Important", "Boss will run to midand spawn four images, becoming immune.  Kill the images to continue the fight, while dodging orbs."}, {"Dodge", "Arcane Cleave is a frontal on tank."}, {"HEALER", "Save healing CDs for Overwhelming Energy phase."}}, -- Azureblade
 	[197025] = {{"Important", "Drop Frost Bombs (leaves an icy patch) near edges to avoid filling up space."}, {"Important", "During Absolute Zero, find the safe blue bubble on the floor and get inside."}, {"Defensives", "If targetted by Icy Devastator, help your healer by popping a defensive."},{"HEALER", "Save healing CDs for Absolute Zero."}}, -- Telash Greywing
 	[186738] = {{"TANK", "Make sure to pop something to mitigate Dragon Strike."}, {"HEALER", "Save healing CDs for Unleashed Destruction.  Be careful of the Crackling Vortex add, which will almost always target you due to healing aggro."}, {"Important", "Manage your Oppressive Miasma stacks - a slow that ramps up every time you move, lasts 10 seconds."}, {"Dodge", "Crystalline Roar is a frontal targetted at a random player."}, {"PriorityTargets", "Kill the Detonating Crystal spawns before they finish their Fracture cast."}}, -- Umbrelskul
 
@@ -94,26 +94,37 @@ tipsMap = {
 	[376959] = {{"Important", "To spawn the first boss, free 5 Tuskarrs within these cages - once opened, enemy gnolls will attack."}}, -- Meat Storage
 
 	-- Trash
-	[185508] = {{"TANK", "Tank buster, applies stackin bleed."}, {"Important", "Claw Fighter's will fixate players, run away or use Shadowmeld/Vanish/etc."}}, -- Claw Fighter
-	[186206] = {{"Important", ""}}, -- Cruel Bonecrusher
-	[185691] = {{"Important", ""}}, -- Vicious Hyena
-	[185534] = {{"Important", ""}}, -- Bonebolt Hunter
-	[185528] = {{"Important", ""}}, -- Trickclaw Mystic
-	[186191] = {{"Important", ""}}, -- Decay Speaker
-	[195135] = {{"Important", ""}}, -- Bracken Warscourge
-	[0] = {{"Important", ""}}, -- Mob
-	[0] = {{"Important", ""}}, -- Mob
-	[0] = {{"Important", ""}}, -- Mob
-	[0] = {{"Important", ""}}, -- Mob
-	[0] = {{"Important", ""}}, -- Mob
+	[185508] = {{"TANK", "Tank buster, applies stacking bleed."}, {"Important", "Claw Fighter's will fixate players, run away or use Shadowmeld/Vanish/etc."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Claw Fighter
+	[186206] = {{"TANK", "Tank buster, applies stacking bleed and movement slow debuff."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Cruel Bonecrusher
+	[185691] = {{"Important", "The hyena will reduce the tank's healing taken via Infected Bite."}}, -- Vicious Hyena
+	[185534] = {{"Important", "PriorityTargets", "Casts high damage on random players."}, {"Dodge", "Dodge the Toxic Traps."}, {"Defensives", "If targetted by Bone Bolt, help your healer out by popping a defensive."}}, -- Bonebolt Hunter
+	[185528] = {{"Interrupts", "Interrupt Earth Bolt."}}, -- Trickclaw Mystic
+	[186191] = {{"PriorityTargets", "If a Rotchanting Totem spawns, kill it immediately, else it will stack up Withering Burst on players (disease effect)."}}, -- Decay Speaker
+	[195135] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, {"PriorityTargets", "Increases damage done of nearby allies by 15%."}, {"Interrupts", "Interrupt Hideous Cackle or get mass-feared for 7 seconds."}, {"Dodge", "Move out during Ragestorm."}}, -- Bracken Warscourge
+	[186246] = {{"Interrupts", "Interrupt Screech."}}, -- Fleshripper Vulture
+	[186284] = {{"TANK", "Deals high tank damage with Maul."}}, -- Gutchewer Bear
+	[197857] = {{"TANK", "Tank buster, applies stacking bleed."}, {"Defensives", "If debuffed with Withering Poison, help your healer out by popping a defensive."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Gutstabber
+	[186208] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, {"PriorityTargets", "Increases damage done of nearby allies by 15%."}, {"Important", "PriorityTargets", "Casts high damage on random players."}, {"Defensives", "If targetted by Bone Bolt, help your healer out by popping a defensive."}, {"Dodge", "Dodge Bone Bolt Volley. (40 yard range)"}, {"Important", "CC and slow any nearby Vultures or Hyenas, as they will fixate party members if Scented Meat targets them."}}, -- Rotbow Stalker
+	[187033] = {{"Dodge", "Run away from Violent Whirlwind."}, {"Dodge", "Dodge the frontal cone, Stink Breath, or be disoriented for 4 seconds."}}, -- Stinkbreath
+	[189299] = {{"Important", "Leaves behind a puddle of slime when killed."}}, -- Decaying Slime
+	[186220] = {{"Interrupts", "Interrupt Touch of Decay."}}, -- Brackenhide Shaper
+	[189363] = {{"PriorityTargets", "Kill them quickly before the bleeds stack up."}}, -- Infected Lasher
+	[189531] = {{"Important", "Summons Infected Lashers."}}, -- Decayed Elder
+	[186229] = {{"Important", "Deals aoe damage and summons Infected Lashers."}}, -- Wilted Oak
+	[185656] = {{"Interrupts", "Interrupt Decay Surge"}, {"Dodge", "Dodge the Rotting Surge puddles."}}, -- Filth Caller
+	[187315] = {{"Important", "Tank buster, absorbing healing received and leaving a bleed."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Disease Slasher
+	[186226] = {{"TANK", "Do not pull the Warscourge with other mobs as it will empower them."}, {"PriorityTargets", "Increases damage done of nearby allies by 15% and summons dangerous Totems (kill them ASAP)."}, {"Interrupts", "Interrupt Burst of Decay"}}, -- Fetid Rotsinger
+	[187224] = {{"Important", "Spread at least 5 yards from each other to prevent spreading Withering Contagion."}, {"Important", "Run away from Siphon Decay or else the add will be empowered."}}, -- Vile Rothexer
+	[187231] = {{"TANK", "Tank buster, applies stacking bleed."}, {"HEALER", "You must heal the Bloody Bite bleed off your tank by getting them above 90% health."}}, -- Wither Biter
 	
 	-- Bossess
-	[186122] = {{"Important", ""}}, -- Hackclaw's War-Band (Rira Hackclaw)
-	[186124] = {{"Important", ""}}, -- Hackclaw's War-Band (Gashtooth)
-	[186125] = {{"Important", ""}}, -- Hackclaw's War-Band (Tricktotem)
-	[186116] = {{"Important", ""}}, -- Gutshot
-	[186120] = {{"Important", ""}}, -- Treemouth
-	[186121] = {{"Important", ""}}, -- Decatriarch Wratheye
+	[186122] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, {"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, {"Dodge", "Run away during Bladestorm."}, {"Dodge", "Auto attacks cleave on tank, do not stand in front of boss."}, {"Important", "During Savage Charge, stand in the path of boss and player to help soak the damage."}}, -- Hackclaw's War-Band (Rira Hackclaw)
+	[186124] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, {"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, {"Important", "A bleed will periodically be applied to the group, and is removed by healing above 90% health."}, {"Defensives", "If Marked for Butchery, pop a defensive to help your healer and stay alive."}, {"Important", "Dispel Decayed Senses or become mind-controlled for 15 seconds."}}, -- Hackclaw's War-Band (Gashtooth)
+	[186125] = {{"Important", "If dropped below 15% health, rages in a Bloodfrenzy, increasing haste and damage done by fellow gnolls by 30% until the end of the fight."}, {"HEALER", "Bosses will be empowered with haste based on how much health is missing from your group, keep them above 90% to avoid this."}, {"Interrupts", "Interrupt Greater Healing Rapids at all costs.  Spare interrupts can get Earth Bolt."}, {"PriorityTargets", "When a Hextrick Totem is spawned, nuke it immediately to prevent it from hexing a random player."}}, -- Hackclaw's War-Band (Tricktotem)
+	[186116] = {{"Dodge", "Dodge the Traps the boss chucks out, OR kite the Hyenas into them.  Note - When boss cast's Master's Call, hyenas will be freed."}, {"TANK", "Gut shot will deal high damage and knock you back, be careful not to get knocked into a trap."}, {"Important", "After killing the boss, it is recommended to go down the left bridge."}}, -- Gutshot
+	[194745] = {{"PriorityTargets", "Kill these quickly as they will occassionally fixate other players.  If you are fixated, run/slow/CC!"}, {"Dodge", "Avoid standing in the Bounding Leap danger zone, it will stun you."}}, -- Gutshot's adds, Rotfang Hyena
+	[186120] = {{"Dodge", "Dodge the Decay Spray frontal ability."}, {"Important", "When boss pulls group in with Grasping Vines, it will consume any player within 10 yards.  Break the shield to free the players. Do not get eaten twice in a row.  If no player is consumed, boss permanently gains a 150% damage increase."}, {"Dodge", "Be careful of the frontal Vine Whip, it follows the tank and will knock back players hit."}, {"Defensives", "If Consumed, pop a defensive to make your healer a happy healer."}}, -- Treemouth
+	[186121] = {{"Important", "At 100 energy, boss will cast Decaying Strength, which empowers her damage by 5% and applies a DoT to all players, increasing based on Withering Rot stacks."}, {"Dodge", "Avoid being hit by the Choking Rotclouds or you will be silenced and receive a stack of Withering Rot, which reduces your damage done by 5%."}, {"PriorityTargets", "Swap to the Rotburst Totem as soon as it spawns, as it applies Withering Rot."}, {"TANK", "Use mitigation during Decaystrike, it stacks and applies a healing absorb."}, {"HEALER", "Heal off the Decaystrike debuff from your tank, it is a healing absorb."}}, -- Decatriarch Wratheye
 
 
 	-------------------------

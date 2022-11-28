@@ -328,9 +328,18 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[188252] = {{"Important", ""}}, -- Melidrussa Chillworn
-	[189232] = {{"Important", ""}}, -- Kokia Blazehoof
-	[193435] = {{"Important", ""}}, -- Kyrakka 
+	[188252] = {{"Important", "Getting hit by mechanics will cause stacks of Primal Chill, slows and at 8 stacks freezes the player.  Can be dispelled."},
+				{"HEALER", "Manage your group's stacks of Primal Chill by dispelling players with highest stacks first.  Dispel the tank when Infused Whelps spawn."},
+				{"PriorityTargets", "Nuke the Whelps when they spawn to save your tank from freezing."},
+				{"TANKS", "Magic immunities will prevent application of Primal Chill from the Whelps."}}, -- Melidrussa Chillworn
+	[189232] = {{"Important", "Position to bait Firestorms against the edge, saving space - they explode upon death, leaving lava puddle."},
+				{"Dodge", "Dodge the boulder chucked at the tank, do not be in front."},
+				{"TANK", "Position so the boulder goes into a wall, while also staying near Firestorms to cleave."}}, -- Kokia Blazehoof
+	[193435] = {{"Important", "Stop casting during Interrupting Cloudburst, or get interrupted."},
+				{"Dodge", "During Winds of Change, do not get pushed into Flaming Embers."},
+				{"Important", "If you touch fire, you get debuffed - 3 seconds later, drop a Flaming Ember add (put it in a good spot!)."},
+				{"Dodge", "Watch Kyrakka's position on the sides, they will breathe fire occassionally."},
+				{"TANK", "Stormslam stacks, pop big mitigation on higher stacks."}}, -- Kyrakka 
 
 
 	-------------------------

@@ -190,6 +190,9 @@ tipsMap = {
 	-- Halls of Infusion --
 	-------------------------
 
+	-- Unique Action Items
+	[197560] = {{"Important", "If a player has 25+ Engineering skill, click this to unlock a Cheat Death buff on players (disappears after it procs once)."}} -- Limited Immortality Device
+
 	-- Trash
 	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
@@ -197,10 +200,22 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[189719] = {{"Important", ""}}, -- Watcher Irideus
-	[189722] = {{"Important", ""}}, -- Gulping Goliath
-	[189727] = {{"Important", ""}}, -- Khajin the Unyielding
-	[189729] = {{"Important", ""}}, -- Primal Tsunami
+	[189719] = {{"Dodge", "Dodge Spark Volley puddles, they leave a DoT."}, 
+				{"Important", "Kill 3 Nullification Devices near the boss to remove its Ablative Barrier."}, 
+				{"Interrupts", "Interrupt Purifying Blast from the Nullification Device."}, 
+				{"Dodge", "Frontal slam, do not stand on tank."},
+				{"Defensives", "3 players will be debuffed with a nasty DoT, dispel one and defensive the others."}}, -- Watcher Irideus
+	[189722] = {{"Dodge", "Dodge the falling earth effects."},
+				{"PriorityTargets", "Nuke the Swoglets to avoid the stacking poison, will kill you at 10 stacks."},
+				{"Important", "Feed one player to the boss during Gulp or he will get enraged.  Be aware the player will receive 3 stacks of poison."}}, -- Gulping Goliath
+	[189727] = {{"Important", "Hide behind Ice Boulders to survive the Hailstorm."},
+				{"Dodge", "Dodge the rings of ice during Glacial Surge."},
+				{"Important", "If targetted with Cyclone, do not aim it towards an Ice Boulder or it will explode."},
+				{"HEALER", "Dispel the slow effect on players targetted by Frost Shock."}}, -- Khajin the Unyielding
+	[189729] = {{"Important", "At 100 energy players will be split into two groups and will travel through a tsunami maze to return to boss."},
+				{"Dodge", "Dodge the ground spheres and waves, or be slowed/knocked back."},
+				{"Interrupts", "Interrupt the Infuse ability cast by Primalist Infusers as it will empower the boss."},
+				{"TANK", "Use mitigation for Squall Buffet, and return quickly to the boss after the knockback to prevent it from casting its AoE."}}, -- Primal Tsunami
 
 
 	-------------------------
@@ -214,10 +229,22 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[181861] = {{"Important", ""}}, -- Magmatusk
-	[189340] = {{"Important", ""}}, -- Chargath
-	[189478] = {{"Important", ""}}, -- Forgemaster Gorek
-	[189901] = {{"Important", ""}}, -- Warlord Sargha
+	[181861] = {{"Dodge", "Lava Spray will target a random player and do a cone of damage towards them."}, 
+				{"Dodge", "Boss will charge towards a wall, causing lava waves that must be dodged."},
+				{"Important", "The longer the fight goes on, the more tentacles and waves the party must deal with."},
+				{"Important", "If the boss stands in lava, he will deal 50% more damage."}}, -- Magmatusk
+	[189340] = {{"Important", "Boss will chain 3 players to the floor. Players should run away from chain, creating a tripwire to kite the boss over.  Once boss trips 3 times, he is stunned and takes increased damage."},
+				{"TANK", "During Fiery Fixate, interrupt the fixate by tripping the boss on wires."},
+				{"Dodge", "Dodge the waves and fire puddles coming from the boss."},
+				{"Defensives", "If targetted by the Dragon Strike bleed, pop a defensive to make your healer happy."}}, -- Chargath
+	[189478] = {{"Dodge", "When boss returns to anvil, be prepared to dodge the hammers he will throw at the group."}, 
+				{"Dodge", "Dodge the fire swirls during the encounter.  Fire bad, no buff."},
+				{"Important", "Once defeated, a player with Blacksmithing can click the anvil, granting action button that throws the hammer at enemies."}}, -- Forgemaster Gorek
+	[189901] = {{"Important", "During Magma shield, dig through piles of gold to find items that will break the shield faster."},
+				{"Dodge", "Dodge the firey swirlies while digging for items."},
+				{"PriorityTargets", "Once the shield is broken, boss will take 100% increased damage."},
+				{"Important", "Raging Embers spawn and fixate players, dropping lava puddles - CC and slow to conserve space, the add will disappear when the fixate ends."},
+				{"Dodge", "Dodge the randomly aimed frontal cone (The Dragon's Kiln)."}}, -- Warlord Sargha
 
 	----------------------
 	-- Nokhud Offensive --
@@ -301,9 +328,18 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[188252] = {{"Important", ""}}, -- Melidrussa Chillworn
-	[189232] = {{"Important", ""}}, -- Kokia Blazehoof
-	[193435] = {{"Important", ""}}, -- Kyrakka 
+	[188252] = {{"Important", "Getting hit by mechanics will cause stacks of Primal Chill, slows and at 8 stacks freezes the player.  Can be dispelled."},
+				{"HEALER", "Manage your group's stacks of Primal Chill by dispelling players with highest stacks first.  Dispel the tank when Infused Whelps spawn."},
+				{"PriorityTargets", "Nuke the Whelps when they spawn to save your tank from freezing."},
+				{"TANKS", "Magic immunities will prevent application of Primal Chill from the Whelps."}}, -- Melidrussa Chillworn
+	[189232] = {{"Important", "Position to bait Firestorms against the edge, saving space - they explode upon death, leaving lava puddle."},
+				{"Dodge", "Dodge the boulder chucked at the tank, do not be in front."},
+				{"TANK", "Position so the boulder goes into a wall, while also staying near Firestorms to cleave."}}, -- Kokia Blazehoof
+	[193435] = {{"Important", "Stop casting during Interrupting Cloudburst, or get interrupted."},
+				{"Dodge", "During Winds of Change, do not get pushed into Flaming Embers."},
+				{"Important", "If you touch fire, you get debuffed - 3 seconds later, drop a Flaming Ember add (put it in a good spot!)."},
+				{"Dodge", "Watch Kyrakka's position on the sides, they will breathe fire occassionally."},
+				{"TANK", "Stormslam stacks, pop big mitigation on higher stacks."}}, -- Kyrakka 
 
 
 	-------------------------

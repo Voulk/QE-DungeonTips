@@ -20,73 +20,119 @@ tipsMap = {
 	-------------------Dragonflight--------------------
 	---------------------------------------------------
 
-	-------------------------
-	--       Uldaman       --
-	-------------------------
-	[0] = {{"Important", ""}}, -- Haunting Sha
-	[0] = {{"Important", ""}}, -- Haunting Sha
-	[0] = {{"Important", ""}}, -- Haunting Sha
-	[0] = {{"Important", ""}}, -- Haunting Sha
+	-----------------------
+	-- Algeth'ar Academy --
+	-----------------------
+	-- Trash
+	[196045] = {{"Important", ""}}, -- Corrupted Manafiend
+	[196576] = {{"Important", ""}}, -- Spellbound Scepter
+	[196577] = {{"Important", ""}}, -- Spellbound Battleaxe
+	[196671] = {{"Important", ""}}, -- Arcane Ravager
+	[196694] = {{"Important", ""}}, -- Arcane Forager
+	[196044] = {{"Important", ""}}, -- Unruly Textbook
+	[192680] = {{"Important", ""}}, -- Guardian Sentry
+	[197406] = {{"Important", ""}}, -- Aggravated Skitterfly
+	[197398] = {{"Important", ""}}, -- Hungry Lasher
+	[197219] = {{"Important", ""}}, -- Vile Lasher
+	[192329] = {{"Important", ""}}, -- Territorial Eagle
 
 	-- Bosses
-	[0] = {{"Dodge", "Baelog: During Heavy Arrow Cast: Avoid being in the direct line he's facing. Big damage + knockback."},
-			{"Dodge", "Dodge: Dodge the brown swirly. Erik will charge there soon after."},
-			{"Important", "Stay spread more than 5 yards where possible."},
-			{"Interrupts", "Interrupt: Defensive Bulwark (-75% boss dmg taken)."},
-			{"Important", "During Longboat: Players will drop swirls. Can move as a group to make them easier to dodge."},
-			{"Important", "Killing a dwarf early will cause swirls for rest of fight, but it's still fine to do so."}}, -- Lost Dwarves
-	[0] = {{"PriorityTargets", "Priority Target: Quaking Totem. Killing will stun all Troggs within 8 yds."},
-			{"Important", "Boss will cast Bloodlust on all troggs. With good timing you can kill Quaking Totem just after the cast."},
-			{"Dodge", "Dodge: Big blue circles."},
-			{"Interrupts", "Interrupt (!): Chain Lightning (AoE dmg) - Cast by the Geomancers."}}, -- Bromach
-	[0] = {{"Important", "If boss reaches 100 energy: She enrages and becomes immune to CC."},
-			{"Important", "Drag boss through golden orbs to stun her. Avoid touching them yourself. The first, and then every 3rd Orb will stun her."},
-			{"Important", "When golden circle around you: Drop it close to boss since it'll drop an orb."},
-			{"Important", "If boss reaches 100 energy: She enrages and becomes immune to CC."},
-			{"Important", "Boss also has a knock back. Check your positioning so you don't get knocked into an Orb."}}, -- Sentinel Talondras
-	[0] = {{"Important", "FRONTAL CONE: Follows tank."},
-			{"Dodge", "Dodge: Big burning orbs"},
-			{"Important", "When boss at 100 energy: Goes immune and you have to kill adds to continue."},
-			{"Important", "Watch out for the big fire beam during intermission, and use your defensives if you're spread around the room since it's tough to heal."},
-			{"Important", "When red circle around you: Spread so that you're not in two circles at once."}}, -- Emberon
-	[0] = {{"Important", "Avoid pools on the ground until boss channels Reverse Timeflow, then stand in them during the cast."},
-			{"Important", "Targeted with Time Sink debuff: Run out and get dispelled. Will spawn swirly under you on removal."},
-			{"HEALER", "Healer: Wait until the debuffed player is out before dispelling to avoid dropping a pool on top of your group."},
-			{"Dodge", "FRONTAL CONE"}}, -- Chrono-Lord Deios 
+	[19] = {{"Important", "Boss will fire five orbs around the arena. You need to stand in them to soak the damage."},
+			{"Important", "At 100 energy: Pushes back all players, and then summons swirls underneath you for a few seconds."},
+			{"Important", "When circle around you: Move to the side of the room since you'll drop a puddle when it expires."},
+			{"Dodge", "Frontal Cleave (Arcane Expulsion). Will follow the tank."},
+			{"HEALER", "On Mythic: Soaking orb will put +200% orb dmg taken debuff on people. This can be dispelled."}}, -- Vexamus
+	[196482] = {{"Important", "During Germinate: You'll drop swirls that will spawn into adds. Try and drop them all close to boss."},
+				{"Important", "When treant spawns: Interrupt it's healing casts, and kill it ASAP. It also puts a bleed on party on spawn."},
+				{"Important", "Killing the Treant will drop a healing pool that will also clear your bleeds."},
+				{"HEALER", "Mythic: Adds stack poison on target. Dispel it as often as you can."}}, -- Overgrown Ancient
+	[19] = {{"Important", "Frontal (targets random players, can be dodged)"},
+				{"Important", "During defeaning screech: Stop casting, or include shorter casts since boss will interrupt you when it finishes."},
+				{"Important", "When Orbs spawn: Pick them up and run them to either the Fire or Wind circle then press your extra action button."},
+				{"Important", "Scoring in Fire: Boss will be stunned and take +75% damage for 12s. Fire swirls for rest of combat."},
+				{"Important", "Scoring in Wind: Players can pick up +45% haste motes until end of combat. Cyclones will spawn for rest of combat."}}, -- Crawth
+	[19] = {{"Important", "You'll get a stacking dmg buff (overwhelming power) that turns into a rift at 4 stacks. Try not to drop these in bad places."},
+			{"Important", "Rifts will occasionally release orbs which give more stacks of overwhelming power and thus spawns even more Rifts."},
+			{"Important", "When pulled in: Run out. Boss will do a 2yd AoE."},
+			{"Important", "When circle around you: Run out of the group and drop it somewhere safe."},
+			{"Dodge", "FRONTAL CLEAVE"}}, -- Echo of Doragosa
+
 
 	-------------------------
-	-- Jade Serpent Temple --
+	-- Azure Vault --
 	-------------------------
 
-	[59555] = {{"Important", ""}}, -- Haunting Sha
-	[65314] = {{"Important", ""}}, -- Xiang
-	[59547] = {{"Important", ""}}, -- Jiang
-	[59598] = {{"Important", ""}}, -- Lesser Sha
-	[59546] = {{"Important", ""}}, -- The Talking Fish
-	[59553] = {{"Important", ""}}, -- The Songbird Queen
-	[59545] = {{"Important", ""}}, -- The Golden Beetle
-	[59552] = {{"Important", ""}}, -- The Crybaby Hozen
-	[59544] = {{"Important", ""}}, -- The Nodding Tiger
-	[57080] = {{"Important", ""}}, -- Corrupted Scroll
-	[62358] = {{"Important", ""}}, -- Corrupt Droplet
-	[200126] = {{"Important", ""}}, -- Fallen Waterspeaker
-	[59873] = {{"Important", ""}}, -- Corrupt Living Water
-	[200387] = {{"Important", ""}}, -- Shambling Infester
-	[200137] = {{"Important", ""}}, -- Depraved Mistweaver
-	[200131] = {{"Important", ""}}, -- Sha-Touched Guardian
-	[57109] = {{"Important", ""}}, -- Minion of Doubt
+	-- Trash
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
 	
+	-- Bossess
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
 
-	[56448] = {{"Important", ""}}, -- Wise Mari
-	[59051] = {{"Important", ""}}, -- Strife
-	[59726] = {{"Important", ""}}, -- Peril
-	[56732] = {{"Important", ""}}, -- Liu Flameheart
-	[56439] = {{"Important", ""}}, -- Sha of Doubt
 
+	-------------------------
+	-- Brackenhide Hollow --
+	-------------------------
+
+	-- Trash
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	
+	-- Bossess
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+
+
+	-------------------------
+	-- Halls of Infusion --
+	-------------------------
+
+	-- Trash
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	
+	-- Bossess
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+
+
+	-------------------------
+	-- Neltharus --
+	-------------------------
+
+	-- Trash
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	
+	-- Bossess
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
 
 	----------------------
 	-- Nokhud Offensive --
 	----------------------
+	-- Trash
 	[192789] = {{"Important", ""}}, -- Nokhud Longbow
 	[192791] = {{"Important", ""}}, -- Nokhud Warspear
 	[192796] = {{"Important", ""}}, -- Nokhud Hornsounder
@@ -95,7 +141,6 @@ tipsMap = {
 	[192794] = {{"Important", ""}}, -- Nokhud Beastmaster
 	[192800] = {{"Important", ""}}, -- Nokhud Lancemaster
 	[195696] = {{"Important", ""}}, -- Primalist Thunderbeast
-
 	[194317] = {{"Important", ""}}, -- Stormcaller Boroo
 	[194898] = {{"Important", ""}}, -- Primalist Arcblade
 	[194897] = {{"Important", ""}}, -- Stormsurge Totem
@@ -127,6 +172,7 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- 
 	[0] = {{"Important", ""}}, -- 
 
+	-- Bosses
 	[186616] = {{"Important", "There are three Lances (big crossbows) around his arena. Clicking one will stun the boss for 5 seconds."},
 				{"Important", "You will want to use one of these to cancel the bosses 'Eruption' cast which will kill you quickly otherwise."},
 				{"Important", "Mythic: The boss will spawn a Saboteur add that'll try and disable the Lances. Kill these quickly. You can CC them."}
@@ -149,42 +195,90 @@ tipsMap = {
 			{"Important", "P2: When pulled in by Static Spear, run ASAP. Use mobility if you have it since boss will charge that location."}}, -- Balakar Khan
 
 
-	-----------------------
-	-- Algeth'ar Academy --
-	-----------------------
-	[196045] = {{"Important", ""}}, -- Corrupted Manafiend
-	[196576] = {{"Important", ""}}, -- Spellbound Scepter
-	[196577] = {{"Important", ""}}, -- Spellbound Battleaxe
-	[196671] = {{"Important", ""}}, -- Arcane Ravager
-	[196694] = {{"Important", ""}}, -- Arcane Forager
-	[196044] = {{"Important", ""}}, -- Unruly Textbook
-	[192680] = {{"Important", ""}}, -- Guardian Sentry
-	[197406] = {{"Important", ""}}, -- Aggravated Skitterfly
-	[197398] = {{"Important", ""}}, -- Hungry Lasher
-	[197219] = {{"Important", ""}}, -- Vile Lasher
-	[192329] = {{"Important", ""}}, -- Territorial Eagle
+	-------------------------
+	-- Ruby Life Pools --
+	-------------------------
 
-	[19] = {{"Important", "Boss will fire five orbs around the arena. You need to stand in them to soak the damage."},
-			{"Important", "At 100 energy: Pushes back all players, and then summons swirls underneath you for a few seconds."},
-			{"Important", "When circle around you: Move to the side of the room since you'll drop a puddle when it expires."},
-			{"Dodge", "Frontal Cleave (Arcane Expulsion). Will follow the tank."},
-			{"HEALER", "On Mythic: Soaking orb will put +200% orb dmg taken debuff on people. This can be dispelled."}}, -- Vexamus
-	[196482] = {{"Important", "During Germinate: You'll drop swirls that will spawn into adds. Try and drop them all close to boss."},
-				{"Important", "When treant spawns: Interrupt it's healing casts, and kill it ASAP. It also puts a bleed on party on spawn."},
-				{"Important", "Killing the Treant will drop a healing pool that will also clear your bleeds."},
-				{"HEALER", "Mythic: Adds stack poison on target. Dispel it as often as you can."}}, -- Overgrown Ancient
-	[19] = {{"Important", "Frontal (targets random players, can be dodged)"},
-				{"Important", "During defeaning screech: Stop casting, or include shorter casts since boss will interrupt you when it finishes."},
-				{"Important", "When Orbs spawn: Pick them up and run them to either the Fire or Wind circle then press your extra action button."},
-				{"Important", "Scoring in Fire: Boss will be stunned and take +75% damage for 12s. Fire swirls for rest of combat."},
-				{"Important", "Scoring in Wind: Players can pick up +45% haste motes until end of combat. Cyclones will spawn for rest of combat."}}, -- Crawth
-	[19] = {{"Important", "You'll get a stacking dmg buff (overwhelming power) that turns into a rift at 4 stacks. Try not to drop these in bad places."},
-			{"Important", "Rifts will occasionally release orbs which give more stacks of overwhelming power and thus spawns even more Rifts."},
-			{"Important", "When pulled in: Run out. Boss will do a 2yd AoE."},
-			{"Important", "When circle around you: Run out of the group and drop it somewhere safe."},
-			{"Dodge", "FRONTAL CLEAVE"}}, -- Echo of Doragosa
+	-- Trash
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	[0] = {{"Important", ""}}, -- Mob
+	
+	-- Bossess
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
+	[0] = {{"Important", ""}}, -- Boss
 
 
+	-------------------------
+	--       Uldaman       --
+	-------------------------
+	-- Trash
+	[0] = {{"Important", ""}}, -- Haunting Sha
+	[0] = {{"Important", ""}}, -- Haunting Sha
+	[0] = {{"Important", ""}}, -- Haunting Sha
+	[0] = {{"Important", ""}}, -- Haunting Sha
+
+	-- Bosses
+	[0] = {{"Dodge", "Baelog: During Heavy Arrow Cast: Avoid being in the direct line he's facing. Big damage + knockback."},
+			{"Dodge", "Dodge: Dodge the brown swirly. Erik will charge there soon after."},
+			{"Important", "Stay spread more than 5 yards where possible."},
+			{"Interrupts", "Interrupt: Defensive Bulwark (-75% boss dmg taken)."},
+			{"Important", "During Longboat: Players will drop swirls. Can move as a group to make them easier to dodge."},
+			{"Important", "Killing a dwarf early will cause swirls for rest of fight, but it's still fine to do so."}}, -- Lost Dwarves
+	[0] = {{"PriorityTargets", "Priority Target: Quaking Totem. Killing will stun all Troggs within 8 yds."},
+			{"Important", "Boss will cast Bloodlust on all troggs. With good timing you can kill Quaking Totem just after the cast."},
+			{"Dodge", "Dodge: Big blue circles."},
+			{"Interrupts", "Interrupt (!): Chain Lightning (AoE dmg) - Cast by the Geomancers."}}, -- Bromach
+	[0] = {{"Important", "If boss reaches 100 energy: She enrages and becomes immune to CC."},
+			{"Important", "Drag boss through golden orbs to stun her. Avoid touching them yourself. The first, and then every 3rd Orb will stun her."},
+			{"Important", "When golden circle around you: Drop it close to boss since it'll drop an orb."},
+			{"Important", "If boss reaches 100 energy: She enrages and becomes immune to CC."},
+			{"Important", "Boss also has a knock back. Check your positioning so you don't get knocked into an Orb."}}, -- Sentinel Talondras
+	[0] = {{"Important", "FRONTAL CONE: Follows tank."},
+			{"Dodge", "Dodge: Big burning orbs"},
+			{"Important", "When boss at 100 energy: Goes immune and you have to kill adds to continue."},
+			{"Important", "Watch out for the big fire beam during intermission, and use your defensives if you're spread around the room since it's tough to heal."},
+			{"Important", "When red circle around you: Spread so that you're not in two circles at once."}}, -- Emberon
+	[0] = {{"Important", "Avoid pools on the ground until boss channels Reverse Timeflow, then stand in them during the cast."},
+			{"Important", "Targeted with Time Sink debuff: Run out and get dispelled. Will spawn swirly under you on removal."},
+			{"HEALER", "Healer: Wait until the debuffed player is out before dispelling to avoid dropping a pool on top of your group."},
+			{"Dodge", "FRONTAL CONE"}}, -- Chrono-Lord Deios 
+
+
+
+	-------------------------
+	-- Jade Serpent Temple --
+	-------------------------
+
+	-- Trash
+	[59555] = {{"Important", ""}}, -- Haunting Sha
+	[65314] = {{"Important", ""}}, -- Xiang
+	[59547] = {{"Important", ""}}, -- Jiang
+	[59598] = {{"Important", ""}}, -- Lesser Sha
+	[59546] = {{"Important", ""}}, -- The Talking Fish
+	[59553] = {{"Important", ""}}, -- The Songbird Queen
+	[59545] = {{"Important", ""}}, -- The Golden Beetle
+	[59552] = {{"Important", ""}}, -- The Crybaby Hozen
+	[59544] = {{"Important", ""}}, -- The Nodding Tiger
+	[57080] = {{"Important", ""}}, -- Corrupted Scroll
+	[62358] = {{"Important", ""}}, -- Corrupt Droplet
+	[200126] = {{"Important", ""}}, -- Fallen Waterspeaker
+	[59873] = {{"Important", ""}}, -- Corrupt Living Water
+	[200387] = {{"Important", ""}}, -- Shambling Infester
+	[200137] = {{"Important", ""}}, -- Depraved Mistweaver
+	[200131] = {{"Important", ""}}, -- Sha-Touched Guardian
+	[57109] = {{"Important", ""}}, -- Minion of Doubt
+	
+	-- Bosses
+	[56448] = {{"Important", ""}}, -- Wise Mari
+	[59051] = {{"Important", ""}}, -- Strife
+	[59726] = {{"Important", ""}}, -- Peril
+	[56732] = {{"Important", ""}}, -- Liu Flameheart
+	[56439] = {{"Important", ""}}, -- Sha of Doubt
 
 
 	---------------------------------------------------
@@ -258,7 +352,7 @@ tipsMap = {
 	[81235] = {{"Important", "A mostly unimportant mob."}}, -- Grimrail Laborer
 	[81212] = {{"Important", "FRONTAL CLEAVE."}}, -- Grimrail Overseer
 	[81236] = {{"Interrupts", "Interrupt (!!): Activating (activates an Iron Star which deals heavy AoE damage)"},
-				{"Interrupts", "Stun Interrupt (!!): 50,000 Volts (Stun + ST Damage)"}}, -- Grimrail Technician
+				{"Interrupts", "Stun Interrupt (!!): 50,000 Volts (Stun + ST Damage)"}}, -- Grimrail TechnicianD
 	[81407] = {{"Important", "Throws down red circles which you have to dodge."},
 				{"Important", "It's often easier to pull these back into the boss room."}}, -- Grimrail Bombardier
 	[80940] = {{"Important", "No notable abilities"}}, -- Iron Infantry

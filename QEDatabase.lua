@@ -63,35 +63,57 @@ tipsMap = {
 	-------------------------
 
 	-- Trash
-	[0] = {{"Important", ""}}, -- Mob
-	[0] = {{"Important", ""}}, -- Mob
-	[0] = {{"Important", ""}}, -- Mob
-	[0] = {{"Important", ""}}, -- Mob
+	[191164] = {{"Interrupt", "Interrupt Erratic Growth to avoid turning player into sapling. If dispelled, spreads sapling debuff to nearby players."}}, -- Arcane Tender
+	[196102] = {{"Interrupt", "Interrupt Mystic Vapors to avoid stacking DoT."}}, -- Conjured Lasher
+	[187159] = {{"Important", "CC the Shriek cast or else nearby mobs will be called into battle."}}, -- Shrieking Whelp
+	[186741] = {{"Interrupt", "Interrupt Waking Bane to prevent this sleep cast from going off, else dispel."}}, -- Arcane Elemental
+	[187154] = {{"Interrupt", "Interrupt Heavy Tome (tank damage)."}, {"Dodge", "Dodge swirls or you will be disoriented."}}, -- Unstable Curator
+	[187155] = {{"Interrupt", "Interrupt Icy Bindings to avoid the groupwide root, else dispel."}}, -- Rune Seal Keeper
+	[187160] = {{"Dodge", "Frontal cone aimed at tank."}}, -- Crystal Fury
+	[196117] = {{"Important", "Do not stand in a debuffed player's Splintering Shards circle."}}, -- Crystal Thrasher
+	[186740] = {{"Dodge", "Frontal cone aimed at tank."}}, -- Arcane Construct
+	[189555] = {{"Dodge", "Dodge the dark blue swirlies from Unstable Power casts."}}, -- Astral Attendant
+	[190510] = {{"TANK", "Ice Cutter does a large amount of damage, use mitigation."}}, -- Vault Guard
+	[191739] = {{"Dodge", "Frontal cone aimed at tank."}, {"TANK", "Ice Cutter does a large amount of damage, use mitigation."}}, -- Scalebane Lieutenant
+	[187240] = {{"Important", "Shoulder Slam will target a player and knock them back, position to avoid triggering runes."}, {"Defensives", "Bestial Roar deals heavy group damage, mitigate it if possible."}}, -- Drakonid Breaker
+	[187246] = {{"Important", "The frogs will jump to a random ranged player's location, try to stay near melee to keep them grouped/CCed."}}, -- Nullmagic Hornswog
 	
 	-- Bossess
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
+	[186644] = {{"Important", "Boss will summon Ley-Line Sprouts that need to be destroyed via other mechanics.  When sprout is destroyed, a small add will spawn from it."}, {"Important", "Explosive Brand will knock back all players, debuffing them with a circle that, upon expiration, will destroy any Sprouts inside."}, {"Important", "Consuming Stomp deals group damage based on how many Sprouts are alive."}, {"Important", "Boss will cast a frontal at tank (Erupting Fissure) that will destroy any Sprouts in its path and knock back any players. Once it starts casting the frontal, it will not move."}}, -- Leymor
+	[186739] = {{"Interrupt", "When dragonkin spawn, interrupt their Illusionary Bolt casts (and kill them quickly)."}, {"Dodge", "Ancient Orb will shoot out an orb from the boss, dodge it."}, {"Important", "Boss will run to midand spawn four images, becoming immune.  Kill the images to continue the fight, while dodging orbs."}, {"Dodge", "Arcane Cleave is a frontal on tank."}, {"HEALER", "Save healing CDs for Overwhelming Energy phase."}}, -- Azureblade
+	[197025] = {{"Important", "Drop Frost Bombs (leaves an icy patch) near edges to avoid filling up space."}, {"Important", "During Absolute Zero, find the safe blue bubble on the floor and get inside."}, {"Defensives", "If targetted by Icy Devastator, help your healer by popping a defensive."},{"HEALER", "Save healing CDs for Absolute Zero."}}, -- Telash Greywing
+	[186738] = {{"TANK", "Make sure to pop something to mitigate Dragon Strike."}, {"HEALER", "Save healing CDs for Unleashed Destruction.  Be careful of the Crackling Vortex add, which will almost always target you due to healing aggro."}, {"Important", "Manage your Oppressive Miasma stacks - a slow that ramps up every time you move, lasts 10 seconds."}, {"Dodge", "Crystalline Roar is a frontal targetted at a random player."}, {"PriorityTargets", "Kill the Detonating Crystal spawns before they finish their Fracture cast."}}, -- Umbrelskul
 
 
 	-------------------------
 	-- Brackenhide Hollow --
 	-------------------------
 
+	-- Unique Action Items
+	[194675] = {{"Important", "Any player with 25+ Alchemy Skill can click these cauldrons to release a Cleansed Rot Brew, allowing one party member to grab it for later use (removes disease, one use)."}}, -- Decaying Cauldron
+	[376959] = {{"Important", "To spawn the first boss, free 5 Tuskarrs within these cages - once opened, enemy gnolls will attack."}}, -- Meat Storage
+
 	-- Trash
+	[185508] = {{"TANK", "Tank buster, applies stackin bleed."}, {"Important", "Claw Fighter's will fixate players, run away or use Shadowmeld/Vanish/etc."}}, -- Claw Fighter
+	[186206] = {{"Important", ""}}, -- Cruel Bonecrusher
+	[185691] = {{"Important", ""}}, -- Vicious Hyena
+	[185534] = {{"Important", ""}}, -- Bonebolt Hunter
+	[185528] = {{"Important", ""}}, -- Trickclaw Mystic
+	[186191] = {{"Important", ""}}, -- Decay Speaker
+	[195135] = {{"Important", ""}}, -- Bracken Warscourge
+	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
-	[0] = {{"Important", ""}}, -- Boss
+	[186122] = {{"Important", ""}}, -- Hackclaw's War-Band (Rira Hackclaw)
+	[186124] = {{"Important", ""}}, -- Hackclaw's War-Band (Gashtooth)
+	[186125] = {{"Important", ""}}, -- Hackclaw's War-Band (Tricktotem)
+	[186116] = {{"Important", ""}}, -- Gutshot
+	[186120] = {{"Important", ""}}, -- Treemouth
+	[186121] = {{"Important", ""}}, -- Decatriarch Wratheye
 
 
 	-------------------------

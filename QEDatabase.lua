@@ -190,6 +190,9 @@ tipsMap = {
 	-- Halls of Infusion --
 	-------------------------
 
+	-- Unique Action Items
+	[197560] = {{"Important", "If a player has 25+ Engineering skill, click this to unlock a Cheat Death buff on players (disappears after it procs once)."}} -- Limited Immortality Device
+
 	-- Trash
 	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
@@ -197,10 +200,22 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	
 	-- Bossess
-	[189719] = {{"Important", ""}}, -- Watcher Irideus
-	[189722] = {{"Important", ""}}, -- Gulping Goliath
-	[189727] = {{"Important", ""}}, -- Khajin the Unyielding
-	[189729] = {{"Important", ""}}, -- Primal Tsunami
+	[189719] = {{"Dodge", "Dodge Spark Volley puddles, they leave a DoT."}, 
+				{"Important", "Kill 3 Nullification Devices near the boss to remove its Ablative Barrier."}, 
+				{"Interrupts", "Interrupt Purifying Blast from the Nullification Device."}, 
+				{"Dodge", "Frontal slam, do not stand on tank."},
+				{"Defensives", "3 players will be debuffed with a nasty DoT, dispel one and defensive the others."}}, -- Watcher Irideus
+	[189722] = {{"Dodge", "Dodge the falling earth effects."},
+				{"PriorityTargets", "Nuke the Swoglets to avoid the stacking poison, will kill you at 10 stacks."},
+				{"Important", "Feed one player to the boss during Gulp or he will get enraged.  Be aware the player will receive 3 stacks of poison."}}, -- Gulping Goliath
+	[189727] = {{"Important", "Hide behind Ice Boulders to survive the Hailstorm."},
+				{"Dodge", "Dodge the rings of ice during Glacial Surge."},
+				{"Important", "If targetted with Cyclone, do not aim it towards an Ice Boulder or it will explode."},
+				{"HEALER", "Dispel the slow effect on players targetted by Frost Shock."}}, -- Khajin the Unyielding
+	[189729] = {{"Important", "At 100 energy players will be split into two groups and will travel through a tsunami maze to return to boss."},
+				{"Dodge", "Dodge the ground spheres and waves, or be slowed/knocked back."},
+				{"Interrupts", "Interrupt the Infuse ability cast by Primalist Infusers as it will empower the boss."},
+				{"TANK", "Use mitigation for Squall Buffet, and return quickly to the boss after the knockback to prevent it from casting its AoE."}}, -- Primal Tsunami
 
 
 	-------------------------

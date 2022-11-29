@@ -302,6 +302,26 @@ addon.acceptedDungeons = {
 	-- Dragonflight
 	[429] = true, -- Temple of the Jade Serpent
 	[430] = true, -- Temple of the Jade Serpent
+	[2094] = true, -- Ruby Life Pools
+	[2095] = true, -- RLP
+	[2096] = true, -- Brackenhide Hollow
+	[2097] = true, -- Algeth'ar Academy
+	[2098] = true, -- Algeth'ar Academy
+	[2099] = true, -- Algeth'ar Academy
+
+	[2106] = true, -- Brackenhide Hollow
+	[2080] = true, -- Neltharus
+	[2081] = true, -- Neltharus
+	[2071] = true, -- Uldaman
+	[2072] = true, -- Uldaman
+
+	[2073] = true, -- Azure Vaults
+	[2074] = true, -- Azure Vaults
+	[2075] = true, -- Azure Vaults
+	[2076] = true, -- Azure Vaults
+	[2077] = true, -- Azure Vaults
+	
+
 
 
 	[1] = true -- Bookstop

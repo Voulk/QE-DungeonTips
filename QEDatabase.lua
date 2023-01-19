@@ -251,20 +251,24 @@ tipsMap = {
 	----------------------
 	-- Trash
 	[192789] = {{"Important", ""}}, -- Nokhud Longbow
-	[192791] = {{"Important", ""}}, -- Nokhud Warspear
+	[192791] = {{"Important", "Stacks a dangerous bleed DoT on your tank."}}, -- Nokhud Warspear
 	[192796] = {{"Important", ""}}, -- Nokhud Hornsounder
 	[191847] = {{"Important", ""}}, -- Nokhud Plainstomper
 	[192803] = {{"Important", ""}}, -- War Ahuna
 	[192794] = {{"Important", ""}}, -- Nokhud Beastmaster
-	[192800] = {{"Important", ""}}, -- Nokhud Lancemaster
-	[195696] = {{"Important", ""}}, -- Primalist Thunderbeast
+	[192800] = {{"Important", "FRONTAL CLEAVE. Wide arc - melee beware."},
+				{"Interrupts", "Interrupt (!!): Disruptive Shout (Significant AoE + cast interrupt)."}}, -- Nokhud Lancemaster
+	[195696] = {{"Important", "Spread at least 10 yards from each other during the Chain Lightning cast."},
+				{"Interrupts", "Interrupt (!): Thunderstrike. Can also be Spell Reflected."}}, -- Primalist Thunderbeast
 	[194317] = {{"Important", ""}}, -- Stormcaller Boroo
 	[194898] = {{"Important", ""}}, -- Primalist Arcblade
-	[194897] = {{"Important", ""}}, -- Stormsurge Totem
+	[194897] = {{"PriorityTargets", "Priority Target: Try and kill this ASAP before Totemic Overload is cast."}}, -- Stormsurge Totem
 	[195579] = {{"Important", ""}}, -- Primal Gust
 	[194315] = {{"Important", ""}}, -- Primal Stormshield
 	[194315] = {{"Important", ""}}, -- Stormcaller Solongo
-	[194894] = {{"Important", ""}}, -- Primalist Stormspeaker
+	[194894] = {{"Interrupts", "Interrupt (!!): Tempest (Heavy AoE damage over time effect)."},
+				{"Interrupts", "Interrupt (!): Stormbolt (ST Nuke)."},
+				{"Important", "On higher keys, consider defensives for these packs. Very dangerous unless interrupts are perfect."}}, -- Primalist Stormspeaker
 	[194895] = {{"Important", ""}}, -- Unstable Squall
 	[196263] = {{"Important", ""}}, -- Nokhud Neophyte
 	[194316] = {{"Important", ""}}, -- Stormcaller Zarii
@@ -275,11 +279,15 @@ tipsMap = {
 	[195877] = {{"Important", ""}}, -- Risen Mystic
 	[195851] = {{"Important", ""}}, -- Ukhel Deathspeaker
 	[195855] = {{"Important", ""}}, -- Risen Warrior
-	[195842] = {{"Important", ""}}, -- Ukhel Corruptor
-	[195928] = {{"Important", ""}}, -- Soulharvester Duuren
-	[195927] = {{"Important", ""}}, -- Soulharvester Galtmaa
-	[195930] = {{"Important", ""}}, -- Soulharvester Mandakh
-	[195929] = {{"Important", ""}}, -- Soulharvester Tumen
+	[195842] = {{"Dodge", "Dodge: Necrotic Eruption swirls"}}, -- Ukhel Corruptor
+	[195928] = {{"Interrupts", "Interrupt (!!!): Death Bolt Volley (AoE Nuke)"},
+				{"Important", "If hit with Shatter Soul then you'll need to walk over to your soul (looks like a ghost). You'll deal less damage until you get it back."}}, -- Soulharvester Duuren
+	[195927] = {{"Interrupts", "Interrupt (!!!): Death Bolt Volley (AoE Nuke)"},
+				{"Important", "If hit with Shatter Soul then you'll need to walk over to your soul (looks like a ghost). You'll deal less damage until you get it back."}},  -- Soulharvester Galtmaa
+	[195930] = {{"Interrupts", "Interrupt (!!!): Death Bolt Volley (AoE Nuke)"},
+				{"Important", "If hit with Shatter Soul then you'll need to walk over to your soul (looks like a ghost). You'll deal less damage until you get it back."}}, -- Soulharvester Mandakh
+	[195929] = {{"Interrupts", "Interrupt (!!!): Death Bolt Volley (AoE Nuke)"},
+				{"Important", "If hit with Shatter Soul then you'll need to walk over to your soul (looks like a ghost). You'll deal less damage until you get it back."}},  -- Soulharvester Tumen
 
 	-- Last boss trash still missing.
 	[0] = {{"Important", ""}}, -- 

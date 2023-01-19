@@ -320,9 +320,13 @@ addon.acceptedDungeons = {
 	[2075] = true, -- Azure Vaults
 	[2076] = true, -- Azure Vaults
 	[2077] = true, -- Azure Vaults
+
+	[2093] = true, -- Nokhud Offensive
 	
+	[574] = true, -- Shadowmoon Burial Ground I
+	[576] = true, -- Shadowmoon Burial Ground II
 
-
+	[2082] = true, -- Halls of Infusion
 
 	[1] = true -- Bookstop
 	

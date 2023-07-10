@@ -20,6 +20,16 @@ tipsMap = {
 	-------------------Dragonflight--------------------
 	---------------------------------------------------
 
+
+	--------------------------
+	-- Dawn of the Infinite --
+	--------------------------
+	-- Trash
+
+
+	-- Bosses
+
+
 	-----------------------
 	-- Algeth'ar Academy --
 	-----------------------
@@ -82,7 +92,7 @@ tipsMap = {
 				{"Defensives", "Bestial Roar deals heavy group damage, mitigate it if possible."}}, -- Drakonid Breaker
 	[187246] = {{"Important", "The frogs will jump to a random ranged player's location, try to stay near melee to keep them grouped/CCed."}}, -- Nullmagic Hornswog
 	
-	-- Bossess
+	-- Bosses
 	[186644] = {{"Important", "Boss will summon Ley-Line Sprouts that need to be destroyed via other mechanics.  When sprout is destroyed, a small add will spawn from it."}, 
 				{"Important", "Explosive Brand will knock back all players, debuffing them with a circle that, upon expiration, will destroy any Sprouts inside."}, 
 				{"Important", "Consuming Stomp deals group damage based on how many Sprouts are alive."}, 
@@ -199,7 +209,7 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
 	
-	-- Bossess
+	-- Bosses
 	[189719] = {{"Dodge", "Dodge Spark Volley puddles, they leave a DoT."}, 
 				{"Important", "Kill 3 Nullification Devices near the boss to remove its Ablative Barrier."}, 
 				{"Interrupts", "Interrupt Purifying Blast from the Nullification Device."}, 
@@ -228,7 +238,7 @@ tipsMap = {
 	[0] = {{"Important", ""}}, -- Mob
 	[0] = {{"Important", ""}}, -- Mob
 	
-	-- Bossess
+	-- Bosses
 	[181861] = {{"Dodge", "Lava Spray will target a random player and do a cone of damage towards them."}, 
 				{"Dodge", "Boss will charge towards a wall, causing lava waves that must be dodged."},
 				{"Important", "The longer the fight goes on, the more tentacles and waves the party must deal with."},

@@ -328,6 +328,27 @@ addon.acceptedDungeons = {
 
 	[2082] = true, -- Halls of Infusion
 
+	[325] = true, -- Vortex Pinnacle
+
+	[2190] = true, -- Dawn of the Infinite I
+	[2191] = true, -- Dawn of the Infinite I
+	[2192] = true, -- Dawn of the Infinite I
+	[2193] = true, -- Dawn of the Infinite I
+	[2194] = true, -- Dawn of the Infinite I
+	[2195] = true, -- Dawn of the Infinite I
+	[2196] = true, -- Dawn of the Infinite I
+	[2197] = true, -- Dawn of the Infinite I
+	[2198] = true, -- Dawn of the Infinite I
+	[2199] = true, -- Dawn of the Infinite I
+	[2201] = true, -- Dawn of the Infinite I
+	[2202] = true, -- Dawn of the Infinite I
+	[2203] = true, -- Dawn of the Infinite I
+	[2204] = true, -- Dawn of the Infinite I
+	[2205] = true, -- Dawn of the Infinite I
+	[2206] = true, -- Dawn of the Infinite I
+	[2207] = true, -- Dawn of the Infinite I
+
+
 	[1] = true -- Bookstop
 	
 }
@@ -402,8 +423,9 @@ local function addFrameLine(tooltip, tips, type, role, class)
 			-- tip[1] is the category indicator and we'll use that to decide whether we should show this tooltip or not.
 
 			if QEConfig[tip[1]] or tip[1] == "Legion" or tip[1] == "Dodge" or -- Show if tip type turned on, or if it's using an old Legion tag.
-				(tip[1] == role and QEConfig["RoleChoice"] == "Show my role only") or  -- Show if role matches the tip, and the user wants to see their role only.
-				(roleList[tip[1]] and QEConfig["RoleChoice"] == "Show all roles") or -- Show if role tip and user wants to see all.
+				tip[1] == "HEALER" or tip[1] == "TANK" or tip[1] == "DPS" or
+				--(tip[1] == role and QEConfig["RoleChoice"] == "Show my role only") or  -- Show if role matches the tip, and the user wants to see their role only.
+				--(roleList[tip[1]] and QEConfig["RoleChoice"] == "Show all roles") or -- Show if role tip and user wants to see all.
 				
 				(tip[1] == class and QEConfig["ClassChoice"] == "Show my class only") or
 				(classList[tip[1]] and QEConfig["ClassChoice"] == "Show all classes") then

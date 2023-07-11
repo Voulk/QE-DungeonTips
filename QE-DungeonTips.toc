@@ -1,8 +1,8 @@
-## Interface: 100000
+## Interface: 100150
 ## Title: QE-DungeonTips
 ## Author: Voulk (Discord: Voulk#1858)
-## Notes: QE Mythic+ Dungeon Tips highlights information about dangerous trash mobs in dungeons and Torghast.
-## Version: 5.6
+## Notes: QE Mythic+ Dungeon Tips highlights information about dangerous trash mobs in dungeons.
+## Version: 6
 ## SavedVariables: QEConfig
 
 QEDatabase.lua

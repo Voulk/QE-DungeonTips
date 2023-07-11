@@ -25,9 +25,119 @@ tipsMap = {
 	-- Dawn of the Infinite --
 	--------------------------
 	-- Trash
-
-
+	[205384] = {{"Interrupts", "Interrupt (!): Chronomelt (-%haste & dmg)"}}, -- Infinite Chronoweaver
+	[205408] = {{"Interrupts", "Stun Interrupt: Temposlice (big ST dmg increase)"}}, -- Infinite Timeslicer
+	[205435] = {{"Dodge", "Dodge: Timerip (teleport to a random player and then whirlwind)"}}, -- Epoch Ripper
+	[206140] = {{"Interrupts", "Interrupt (!!): Infinite Bolt Volley (Big AoE)"},
+			 {"Important", "Dispel: Chronoburst"}}, -- Coalesced Time
+	[206068] = {{"TANK", "Save some mitigation for Triple Strike. It has a cast time."}}, -- Temporal Fusion
+	[206064] = {{"Interrupts", "Interrupt (!): Infinite Bolt (ST Nuke)"},
+			 {"Important", "Dispel (!): Tainted Sands (DoT)"}}, -- Coalesced Moment
+	[206066] = {{"Interrupts", "Interrupt / Dispel: Enervate (pulsing AoE dmg)"}}, -- Timestream Leech
+	[205149] = {{"Important", "Dispel (!!): Bloom (spreading DoT)"},
+			 {"Dodge", "Frontal: Untwist"}}, -- Timestream Anomaly
+	[206214] = {{"Dodge", "Dodge: Timeless Curse (green swirls)"},
+			 {"Important", "Defensives / Big Heals: Infinite Fury (big 5s AoE)"}}, -- Infinite Infiltrator
+	[204176] = {{"Important", "Doesn't do much but does buff nearby allies on death."}}, -- Blight Chunk
+	[205804] = {{"Important", "Has an AoE damage aura. It isn't ultra dangerous but take care not to pull too much at once."}}, -- Risen Dragon
+	[205691] = {{"Interrrupts", "Interrupt: Stonebolt (ST dmg and stacking Bleed)"}}, -- Iridikron's Creation
+	[205151] = {{"Dodge", "Dodge: Rending Cleave (massive bleed - frontal)"}}, -- Tyr's Vanguard
+	[201223] = {{"Interrupts", "Interrupt (!): Epoch Bolt (ST dmg)"},
+			 {"Interrupts", "Stun Interrupt: Corroding Volley (AoE dmg + slow)"}}, -- Infinite Twilight Magus
+	[201222] = {{"Important", "When Valow puts down the big bubble, move them out. You are able to stand in it yourself to get DR."}}, -- Valow, Timesworn Keeper
+	[205152] = {{"Important", "Defensives / Big Heals: Ancient Radiance (AoE dmg)"},
+			 {"Dodge", "Dodge: Big Orb"}}, -- Lerai
+	[205158] = {{"Interrupts", "Interrupt (!!): Binding Grasp (ST pacify + dmg) - You might need to enter the sandstorm to interrupt"}}, -- Spurlok
+	[204658] = {{"Important", "Avoid the projectiles and make it to the end. Once you do, you can open up a path for your party."}}, -- Infinite Protector
+	[207177] = {{"Dodge", "Dodge: Timeless Curse (green swirls)"},
+			 {"Important", "Defensives / Big Heals: Infinite Fury (big 5s AoE)"}}, -- Infinite Watchkeeper
+	[199748] = {{"Interrupts", "Interrupt (!!): Displace Chronosequence (creates a dmg / enemy shield rift)"},
+			 {"Interrupts", "Stun Interrupt (!): Infinite Schism (Big AoE)"}}, -- Timeline Marauder
+	[205727] = {{"Interrupts", "Interrupt (!): Rocket Bolt Volley (Big AoE)"}}, -- Time-Lost Rocketeer
+	[205723] = {{"Dodge", "Frontal (Electro-Juiced Gigablast)"}}, -- Time-Lost Aerobot
+	[206074] = {{"Interrupts", "Interrupt (!): Time Beam (ST beam attack that splits off)"}}, -- Pendule
+	[203861] = {{"Dodge", "Dodge: Volatile Mortar (red circle)."},
+			 {"Important", "CC the little goblin pack when they jump out of the vehicle."}}, -- Horde Destroyer
+	
 	-- Bosses
+	[198995] = {{"Important", "When targeted by Circle: Drop toward the side of the room and move up."},
+		{"Important", "When boss jumps in air: Move away, dodge projectiles when he lands, then soak the small circle left behind. He will do this back to back."},
+		{"TANK", "Chronoshear: Massive single target nuke that'll also add a big absorb shield."},
+		{"HEALER", "Chronoshear: Heal the tank after Chronoshear to remove the healing absorb."}}, -- Chronikar
+	[206238] = {{"Important", "The room is divided into four slices. The darker ones reduce damage and projectile speed. The lighter slices give you a movement speed buff but time moves faster."},
+		{"Dodge", "Unwind: Tank frontal. Hits in two parts and you should take them in the dark slices of the room. You can move out of the second."},
+		{"Important", "Fragments of Time: Sends mass projectives. Need to dodge. They move slower in dark slices."},
+		{"HEALER", "Chrono-faded: Dispel as quickly as possible. Sends out waves to dodge, dispeling a player in the Decaying Time zone will also slow down the waves."},
+		{"TANK", "Radiant: Stay in melee of the boss at all times."}}, -- Manifested Timeways
+	[207639] = {{"Important", "Corrosion: Take the debuff to tank and stand on them to transfer it."},
+		{"Important", "Blight Reclamation: Frontal cone that clears the Corrosion debuff."},
+		{"TANK", "Blight Seep: Everytime the boss moves he will drop pools."}}, -- Blight of Galakrond
+	[194907] = {{"Important", "Extinction Blast: If targetted, stand under Timeline Protection to prevent you from dying."},
+		{"Important", "Stonecracker Barrage: The DPS and healer should soak the biggest circle while the tank soaks the smaller one."},
+		{"HEALER", "Chromie: Make sure to heal Chromie and keep her alive. If she dies you will wipe."},
+		{"Important", "Cataclysmic Obliteration: Use any remaining defensive cooldowns and stack under Chromie's Timeline Transcendence."},
+		{"Important", "Earthsurge: Break the shield as quickly as possible to reduce damage taken."},
+		{"Interrupt", "Pulverizing Creations: Will cast Stonebolt, interrupt and disrupt their casts as much as possible."}}, -- Iridikron the Stonescaled
+	[198998] = {{"Important", "Dividing Strike: All players should help to soak this mechanic, each cast that doesn't hit at least 2 players will cause the boss to deal increased damage."},
+		{"Dodge", "Infinite Anniulihation: Avoid the frontal cone."},
+		{"Dodge", "Consecrated Ground: Pools will spawn after the boss casts Infinite Annilihation."},
+		{"TANK", "Titanic Blow: Deals massive damage and can also knock you out of the platform. Be mindful of your positioning."},
+		{"HEALER", "Spark of Tyr: Dispel one immediately and then continue healing up your party."}}, -- Tyr, the Infinite Keeper
+	[202789] = {{"Dodge", "Sand Blast: Avoid the frontal."},
+		{"Important", "More Problems!: Quickly find the real version of the boss and stack behind her, that way you can avoid Dragon's Breath."},
+		{"Dodge", "Time Traps: Avoiding hitting traps on the floor, they will stun you and deal party-wide damage."},
+		{"Important", "Familiar Faces: Kite the fixates through the Time Traps."},
+		{"HEALER", "Time Traps: If any players get hit by this mechanic, make sure to dispel them quickly."}}, -- Morchie
+	[199001] = {{"Dodge", "Shockwave: Frontal cone that you will want to avoid."},
+		{"Dodge", "Bladestorm: Leaps at a player and will continue to deal damage for a few seconds in that area, move away after the leap."},
+		{"HEALER", "Immolate/Fireball: Dispel immediately to reduce damage taken."},
+		{"DPS", "Cleave off the boss and the highest priority add, Horde Axe Thrower which casts Serrated Axe a nasty dot."}}, -- Time-Lost Battlefield
+	[199000] = {{"Important", "Infinity Orb: At least one person needs to soak ground puddles after casting this ability, that way you can stagger Infinity Nova."},
+		{"Important", "Infinity Nova: When this ability goes off, you will take 300% increased damage by it for 4 seconds. This is why you want to aim to stagger when it goes off by soaking puddles."},
+		{"Important", "Summon Infinite Keeper: Every player needs to swap to kill the Infinite Keeper as quickly as possible."},
+		{"Dodge", "Infinite Corruption: Avoid the ground puddles that will be moving around."},
+		{"TANK", "Temporal Breath: Face the boss away from your allies to prevent them from being hit."},
+		{"HEALER", "Chronal Burn: Dispel immediately if a cast ever goes off."}}, -- Chrono-Lord Deios
+
+	
+
+	-----------------------
+	--   Vortex Pinnacle --
+	-----------------------
+	[45915] = {{"Important", "Puts up a frontal shield that'll block all spells from the front."},
+		{"Dodge", "Dodge: Big circle around mob. Ranged shouldn't have to move."}}, -- Armored Minstral
+	[45912] = {{"Interrupts", "Interrupt (!!): Cyclone (Single target CC)"},
+		{"Interrupts", "Interrupt: Wind Bolt (ST Nuke)"}}, -- Wild Vortex
+	[45477] = {{"Important", "Dispel (!!): Rushing Wind (Huge ST DoT). Shadow Priests should assist where able and be careful how many of these you pull."}}, -- Gust Soldier
+	[45917] = {{"Dodge", "Dodge: Typhoon (Big windy circle on the ground)"},
+		{"Important", "Mob will do a big AoE channeled pushback. Watch your health here on higher key levels."}}, -- Cloud Prince
+	[45924] = {{"Interrupts", "Interrupt (!!): Cloudburst (AoE Nuke)"},
+		{"Important", "Purge: Storm Shield (absorb)"}}, -- Turbulent Squall
+	[45922] = {{"Interrupts", "Interrupt: Vapor Form (big mob DR)"}}, -- Empyrean Assassin
+	[45919] = {{"Dodge", "Dodge: Chilling Breath. Tank should try not to aim this through the green healing well."},
+		{"Important", "Stand in: Big green circle. It'll heal you for a lot."},
+		{"Important", "Icy Buffet deals significant AoE damage. Use defensives here to help your healer out."}}, -- Young Storm Dragon
+	[45926] = {{"Important", "Does very little."}}, -- Servant of Assad
+	[45935] = {{"Interrupts", "Interrupt (!): Greater Heal (large heal)"},
+		{"Important", "Purge off Desperate Speed if possible. It gives the mob 50% haste."},
+		{"PriorityTargets", "Priority Target"}}, -- 
+	[45928] = {{"Important", "Defensives: Crashing Stone (Big AoE, and one pack has two of these!)"},
+		{"Interrupts", "Interrupt (!!): Rally (Massive health buff for all mobs in the pack)"}}, -- Executor of the Caliph
+	[45930] = {{"Important", "When targeted by lightning lash: walk into the big lightning field. Stay out of it otherwise."}}, -- Minister of Air
+	[45932] = {{"Important", "These just spam out damage. CC them as much as you can and watch your health. Die quickly."}}, -- Skyfall Star
+	[43878] = {{"Interrupts", "Interrupt as many Lightning Bolts as you can. If you are in an organized group then assigning these can be useful."},
+		{"Important", "This fight has a lot to dodge. Use a birds eye camera view and prioritize dodging over DPS."},
+		{"Important", "Your group need to be reasonably well spread around the boss to stop the Lurking Tempests from casting."}}, -- Grand Vizier Ertan
+	[43873] = {{"Important", "There will be winds out at most times. You need to be upwind of the boss (so the wind hits you before her)."},
+		{"Important", "When upwind you'll get a huge haste buff. When downwind you'll take a haste penalty and a DoT."},
+		{"Important", "When Downburst cast: use the little tornadoes on the ground to be knocked above them."},
+		{"Dodge", "Frontal: Chilling Breath"}}, -- Altairus
+	[43875] = {{"Dodge", "Stay loosely spread when possible and when you get the Chain Lightning circle make sure you run it out."},
+		{"PriorityTargets", "Priority Target: Skyfall Nova. They'll pulse big AoE damage while alive."},
+		{"Important", "Static Cling: Jump at the end of the cast."},
+		{"Important", "When boss draws a triangle on the ground, run over and stand in it. The boss will teleport over soon after."}},
+
+
 
 
 	-----------------------

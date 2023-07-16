@@ -61,32 +61,33 @@ tipsMap = {
 	
 	-- Bosses
 	[198995] = {{"Important", "When targeted by Circle: Drop toward the side of the room and move up."},
-		{"Important", "When boss jumps in air: Move away, dodge projectiles when he lands, then soak the small circle left behind. He will do this back to back."},
+		{"Important", "When boss jumps in air: Move away, dodge projectiles when he lands, then soak the small circle left behind. He will do this back to back to back."},
 		{"TANK", "Chronoshear: Massive single target nuke that'll also add a big absorb shield."},
 		{"HEALER", "Chronoshear: Heal the tank after Chronoshear to remove the healing absorb."}}, -- Chronikar
 	[206238] = {{"Important", "The room is divided into four slices. The darker ones reduce damage and projectile speed. The lighter slices give you a movement speed buff but time moves faster."},
 		{"Dodge", "Unwind: Tank frontal. Hits in two parts and you should take them in the dark slices of the room. You can move out of the second."},
 		{"Important", "Fragments of Time: Sends mass projectives. Need to dodge. They move slower in dark slices."},
-		{"HEALER", "Chrono-faded: Dispel as quickly as possible. Sends out waves to dodge, dispeling a player in the Decaying Time zone will also slow down the waves."},
+		{"HEALER", "Chrono-faded: Have the debuffed allies walk into the fast zone and then dispel them. "},
 		{"TANK", "Radiant: Stay in melee of the boss at all times."}}, -- Manifested Timeways
-	[207639] = {{"Important", "Corrosion: Take the debuff to tank and stand on them to transfer it."},
+	[198997] = {{"Important", "Corrosion: Take the debuff to tank and stand on them to transfer it."},
 		{"Important", "Blight Reclamation: Frontal cone that clears the Corrosion debuff."},
 		{"TANK", "Blight Seep: Everytime the boss moves he will drop pools."}}, -- Blight of Galakrond
-	[194907] = {{"Important", "Extinction Blast: If targetted, stand under Timeline Protection to prevent you from dying."},
-		{"Important", "Stonecracker Barrage: The DPS and healer should soak the biggest circle while the tank soaks the smaller one."},
+	[198933] = {{"Important", "Extinction Blast: If targetted, stand on top of Chromie to prevent you from dying."},
+		{"Important", "Stonecracker Barrage: The DPS and healer should soak the biggest circle on Chromie while the tank soaks the smaller one in front of her. This does quite a bit of damage so you'll need everyone in here."},
 		{"HEALER", "Chromie: Make sure to heal Chromie and keep her alive. If she dies you will wipe."},
-		{"Important", "Cataclysmic Obliteration: Use any remaining defensive cooldowns and stack under Chromie's Timeline Transcendence."},
+		{"Important", "When boss hits 90% health: you'll go into a hard nuke phase where you have to deplete the bosses energy via damage before his cast goes off."},
 		{"Important", "Earthsurge: Break the shield as quickly as possible to reduce damage taken."},
 		{"Interrupt", "Pulverizing Creations: Will cast Stonebolt, interrupt and disrupt their casts as much as possible."}}, -- Iridikron the Stonescaled
 	[198998] = {{"Important", "Dividing Strike: All players should help to soak this mechanic, each cast that doesn't hit at least 2 players will cause the boss to deal increased damage."},
-		{"Dodge", "Infinite Anniulihation: Avoid the frontal cone."},
+
+		{"Dodge", "Infinite Annilihation: Avoid the frontal cone."},
 		{"Dodge", "Consecrated Ground: Pools will spawn after the boss casts Infinite Annilihation."},
 		{"TANK", "Titanic Blow: Deals massive damage and can also knock you out of the platform. Be mindful of your positioning."},
 		{"HEALER", "Spark of Tyr: Dispel one immediately and then continue healing up your party."}}, -- Tyr, the Infinite Keeper
 	[202789] = {{"Dodge", "Sand Blast: Avoid the frontal."},
 		{"Important", "More Problems!: Quickly find the real version of the boss and stack behind her, that way you can avoid Dragon's Breath."},
 		{"Dodge", "Time Traps: Avoiding hitting traps on the floor, they will stun you and deal party-wide damage."},
-		{"Important", "Familiar Faces: Kite the fixates through the Time Traps."},
+		{"Important", "Familiar Faces: Kite the fixates through the Time Traps without walking into them yourself."},
 		{"HEALER", "Time Traps: If any players get hit by this mechanic, make sure to dispel them quickly."}}, -- Morchie
 	[199001] = {{"Dodge", "Shockwave: Frontal cone that you will want to avoid."},
 		{"Dodge", "Bladestorm: Leaps at a player and will continue to deal damage for a few seconds in that area, move away after the leap."},
@@ -98,6 +99,7 @@ tipsMap = {
 		{"Dodge", "Infinite Corruption: Avoid the ground puddles that will be moving around."},
 		{"TANK", "Temporal Breath: Face the boss away from your allies to prevent them from being hit."},
 		{"HEALER", "Chronal Burn: Dispel immediately if a cast ever goes off."}}, -- Chrono-Lord Deios
+
 
 	
 
@@ -324,7 +326,7 @@ tipsMap = {
 				{"Important", "Kill 3 Nullification Devices near the boss to remove its Ablative Barrier."}, 
 				{"Interrupts", "Interrupt Purifying Blast from the Nullification Device."}, 
 				{"Dodge", "Frontal slam, do not stand on tank."},
-				{"Defensives", "3 players will be debuffed with a nasty DoT, dispel one and defensive the others."}}, -- Watcher Irideus
+				{"Defensives", "3 players will be debuffed with a nasty DoT. Don't dispel these since you want them all to go off on top of each other at the same time to conserve space."}}, -- Watcher Irideus
 	[189722] = {{"Dodge", "Dodge the falling earth effects."},
 				{"PriorityTargets", "Nuke the Swoglets to avoid the stacking poison, will kill you at 10 stacks."},
 				{"Important", "Feed one player to the boss during Gulp or he will get enraged.  Be aware the player will receive 3 stacks of poison."}}, -- Gulping Goliath
@@ -360,7 +362,7 @@ tipsMap = {
 	[189478] = {{"Dodge", "When boss returns to anvil, be prepared to dodge the hammers he will throw at the group."}, 
 				{"Dodge", "Dodge the fire swirls during the encounter.  Fire bad, no buff."},
 				{"Important", "Once defeated, a player with Blacksmithing can click the anvil, granting action button that throws the hammer at enemies."}}, -- Forgemaster Gorek
-	[189901] = {{"Important", "During Magma shield, dig through piles of gold to find items that will break the shield faster."},
+	[189901] = {{"Important", "Dig through the gold piles to get special items. Use these when the boss puts up a shield. You'll need just over 3 to break it."},
 				{"Dodge", "Dodge the firey swirlies while digging for items."},
 				{"PriorityTargets", "Once the shield is broken, boss will take 100% increased damage."},
 				{"Important", "Raging Embers spawn and fixate players, dropping lava puddles - CC and slow to conserve space, the add will disappear when the fixate ends."},
